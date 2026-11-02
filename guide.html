@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>뉴비 30만 투력 가이드 · 깨비노트 플러스</title>
+<meta name="description" content="도깨비의세계 무과금 뉴비가 투력 30만까지 가는 단계별 성장 가이드">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=IBM+Plex+Sans+KR:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3f5f3;--surface:#fff;--sunk:#e8ece9;--line:#d5dcd8;--ink:#16201c;--ink2:#46534d;--ink3:#66736d;
+--jade:#0f7a63;--jade-soft:#d9efe8;--vermil:#c4472b;--vermil-soft:#f8e1da;--gold:#9a6b12;--gold-soft:#f5ead2;
+--f-display:"Black Han Sans","IBM Plex Sans KR",system-ui,sans-serif;--f-body:"IBM Plex Sans KR",system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;--r:10px}
+@media (prefers-color-scheme:dark){:root{--bg:#121816;--surface:#1a221f;--sunk:#222c28;--line:#33403b;--ink:#e6ece9;--ink2:#b5c2bc;--ink3:#8d9a94;
+--jade:#3fbf9c;--jade-soft:#173a31;--vermil:#ee7a5f;--vermil-soft:#40231c;--gold:#d9a843;--gold-soft:#3a2f17}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.7}
+header{position:sticky;top:0;z-index:5;background:var(--surface);border-bottom:1px solid var(--line)}
+.hw{max-width:860px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:12px}
+.logo{font-family:var(--f-display);font-size:20px;color:var(--ink);text-decoration:none}
+.logo small{font-family:var(--f-body);font-size:12px;color:var(--ink3);margin-left:6px}
+.back{margin-left:auto;font-size:13px;color:var(--jade);text-decoration:none;font-weight:600}
+nav.toc{max-width:860px;margin:0 auto;padding:0 16px 10px;display:flex;gap:6px;overflow-x:auto}
+nav.toc a{flex:none;font-size:13px;padding:4px 10px;border:1px solid var(--line);border-radius:999px;color:var(--ink2);text-decoration:none;background:var(--bg)}
+nav.toc a:hover{border-color:var(--jade);color:var(--jade)}
+main{max-width:860px;margin:0 auto;padding:20px 16px 60px}
+h1{font-family:var(--f-display);font-weight:400;font-size:30px;line-height:1.3;margin:8px 0 4px}
+.meta{color:var(--ink3);font-size:13px;margin-bottom:18px}
+h2{font-family:var(--f-display);font-weight:400;font-size:22px;margin:36px 0 10px;padding-top:6px;scroll-margin-top:110px}
+h3{font-size:17px;margin:24px 0 8px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px;margin:12px 0}
+.stage{border-left:4px solid var(--jade)}
+.stage .tag{display:inline-block;font-size:12px;font-weight:700;color:var(--jade);background:var(--jade-soft);border-radius:999px;padding:1px 10px;margin-bottom:4px}
+.lead{font-size:16px}
+.note{background:var(--gold-soft);border-radius:var(--r);padding:10px 14px;font-size:13.5px;color:var(--ink2);margin:12px 0}
+.warn{background:var(--vermil-soft)}
+ol,ul{padding-left:22px;margin:6px 0}
+li{margin:3px 0}
+b{font-weight:700}
+.goal{font-size:13.5px;color:var(--ink2);margin-top:8px}
+.tbl{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:14px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--sunk);font-weight:600;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+.pill{display:inline-block;font-size:12px;font-weight:700;padding:0 8px;border-radius:999px}
+.p1{background:var(--vermil-soft);color:var(--vermil)}.p2{background:var(--gold-soft);color:var(--gold)}.p3{background:var(--jade-soft);color:var(--jade)}
+.check li{list-style:none;margin-left:-22px}
+.check label{display:flex;gap:8px;align-items:flex-start;cursor:pointer}
+.check input{margin-top:6px;accent-color:var(--jade)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:640px){.cols{grid-template-columns:1fr}h1{font-size:25px}}
+.faq dt{font-weight:700;margin-top:12px}.faq dd{margin:2px 0 0;color:var(--ink2)}
+.src a{color:var(--jade)}
+footer{color:var(--ink3);font-size:12px;text-align:center;padding:20px}
+</style>
+</head>
+<body>
+<header>
+  <div class="hw"><a class="logo" href="./">깨비노트<small>플러스</small></a><a class="back" href="./">← 홈으로</a></div>
+  <nav class="toc">
+    <a href="#overview">한눈에</a><a href="#sources">투력 구성</a><a href="#s1">1단계</a><a href="#s2">2단계</a><a href="#s3">3단계</a><a href="#s4">4단계</a><a href="#routine">루틴</a><a href="#money">재화</a><a href="#faq">FAQ</a>
+  </nav>
+</header>
+<main>
+<h1>뉴비 30만 투력 가이드</h1>
+<p class="meta">무과금 기준 · 2026.11.02 커뮤니티 공략 기준 · 수요일 점검마다 밸런스가 바뀔 수 있음</p>
+
+<section id="overview">
+<div class="card">
+<p class="lead">투력 30만까지는 <b>희귀 장비 풀강 → 황무지 자동사냥 → 영웅 장비 제작 → 영웅 돌파·각성</b> 네 단계다. 메인·서브퀘만 성실히 밀어도 13만 안팎까지는 자연스럽게 오른다.</p>
+<ul>
+<li><b>투력이 막히면 레벨보다 강화부터.</b> 희귀(파란) 장비는 끝까지 강화해야 진행된다.</li>
+<li><b>영기 수련은 쉬는 시간이 없게.</b> 게임 끄기 전 수련이 돌고 있는지 확인.</li>
+<li><b>엽전·요혼석은 금방 바닥난다.</b> 상점 구매와 고급 강화는 우선순위대로만.</li>
+</ul>
+</div>
+</section>
+
+<h2 id="sources">투력은 어디서 오나</h2>
+<div class="tbl"><table>
+<tr><th>성장 요소</th><th>우선도</th><th>메모</th></tr>
+<tr><td>장비 강화·돌파·각성</td><td><span class="pill p1">최상</span></td><td>희귀 장비 전 부위 50강 시 약 8만대. 1회 강화 엽전 약 1.5만</td></tr>
+<tr><td>영기 수련</td><td><span class="pill p1">최상</span></td><td>공격·방어·체력, 도술 슬롯 개방. 공백 시간 최소화</td></tr>
+<tr><td>기운 발현</td><td><span class="pill p2">상</span></td><td>생명의 기운: 체력·방어·회피·자연회복. 보스에 자주 눕으면 여기부터</td></tr>
+<tr><td>도술 강화</td><td><span class="pill p3">중</span></td><td>요령서는 한정 재화라 신중하게</td></tr>
+<tr><td>몬스터 화첩</td><td><span class="pill p3">중</span></td><td>사냥하며 자연스럽게 채움</td></tr>
+<tr><td>영웅 장비</td><td><span class="pill p1">13만 이후 핵심</span></td><td>황무지 도안 + 전래동화 비경·레이드 재료</td></tr>
+</table></div>
+<p class="note">투력이 보스 권장치보다 낮아도 공략은 가능하다. 권장 8.7만인 산군대호를 4.7만~6.3만에서 잡은 사례가 있다. 자동전투를 끄고 패턴을 직접 피할 것.</p>
+
+<h2 id="s1">단계별 로드맵</h2>
+<div class="card stage">
+<span class="tag">1단계 · 시작 ~ 레벨 50 · ~5만</span>
+<ol>
+<li><b>쿠폰부터 전부 입력.</b> 홈의 미사용 쿠폰 목록 참고.</li>
+<li><b>레벨 30까지 메인퀘만 직진.</b> 새 기능은 퀘스트 안내대로만.</li>
+<li><b>레벨 30 희귀 장비 선택상자</b>: 무기는 부채가 정배(방향 없으면 활도 무난), 방어구는 투구 → 허리띠.</li>
+<li><b>희귀 장비 강화 비법서는 아끼지 말 것.</b> 무기 강화·돌파·각성 → 팔찌 → 투구 → 반지.</li>
+<li><b>기운 선택상자</b>: 홍염 빼고 고르게, 생명의 기운 비중 챙기기.</li>
+<li><b>타바로성 도착 즉시 문파 가입</b> → 파멸 도술 습득·교체.</li>
+<li><b>도술 강화 요령서 선택상자는 보관.</b></li>
+</ol>
+</div>
+
+<div class="card stage" id="s2">
+<span class="tag">2단계 · 레벨 50 ~ 13만</span>
+<ol>
+<li><b>레벨 50 도술 선택상자로 '생명의 흐름'</b> 습득.</li>
+<li><b>메인 + 서사(서브)퀘 병행.</b> 비명동굴 즈음 막히면 서브퀘·일일 임무 정리.</li>
+<li><b>희귀 장비 전 부위 50강 → 돌파 → 각성.</b> 중복 장비는 각성 재료라 분해 금지.</li>
+<li><b>흰색 귀걸이·목걸이도 끝까지 강화.</b></li>
+<li><b>딜이 부족하면 무기·반지 강화</b>, 영기 수련도 공격력 위주.</li>
+<li><b>놓친 보물상자 수집</b> (홈 → 바로가기 → 보물상자 지도).</li>
+</ol>
+<p class="goal">목표 스펙: 투력 12~13만</p>
+</div>
+
+<div class="card stage" id="s3">
+<span class="tag">3단계 · 13만 ~ 20만</span>
+<ol>
+<li><b>필드보스(매일 20시)·문파 콘텐츠 필수.</b></li>
+<li><b>금전으로 전투 멤버십부터 구매.</b> 도술 슬롯 +1, 원격 엽전 상점.</li>
+<li><b>14~15만 세팅</b>: 빠진 파란 방어구는 거래소 구매. 기준 공격력 1.4k, 회피·자연회복 각 1,300 전후.</li>
+<li><b>황무지 마을 13.5k 몹 자동사냥</b>: 강타 + 파멸, 유틸 생명의 흐름·방패밀기·공간결계. <b>물약 없이</b> 분당 엽전 700~800이 기준.</li>
+<li><b>영웅 도안 + 재료로 제작</b>: 무기 > 허리띠 > 투구 > 신발 / 팔찌 > 반지 > 귀걸이. 무기는 활만 아니면 나오는 대로.</li>
+<li><b>원님고개(관아)</b>는 주 5시간, 수요일 05시 리셋 → 화요일에 몰아서.</li>
+<li><b>영웅 장비 분산 강화</b>: 무기 1돌파 → 허리띠·팔찌 49강 → 반지 49강 → 나머지 30강.</li>
+<li><b>레이드 티켓은 15만 전까지 보관</b>(최대 10장). 17만·공격력 1.7k부터 S등급(9분 이상 남김) 노리기.</li>
+<li><b>낙화의 전장은 1급 도사만</b> 달성(시즌 종료 금전 약 8천).</li>
+</ol>
+</div>
+
+<div class="card stage" id="s4">
+<span class="tag">4단계 · 20만 ~ 30만</span>
+<p>원칙은 <b>"영웅 장비를 넓게 채우고, 그다음 깊게 올린다"</b>.</p>
+<ol>
+<li><b>영웅 무기 풀강 후 2~3돌파.</b> 무기 비법서는 방어구의 3배 이상이라 3돌파에서 멈춘다.</li>
+<li><b>영웅 방어구 6부위 제작.</b> 허리띠·투구 먼저.</li>
+<li><b>레이드 3단계 S등급 반복.</b> 영웅 장신구 도안은 여기서만 확률 드랍, 클리어마다 영웅 재료 선택상자. 장신구는 반지 > 팔찌 > 귀걸이.</li>
+<li><b>영웅 무기 1각성.</b> 중복 무기 남겨두기.</li>
+<li><b>영웅 방어구 6부위 1돌파 → 1각성 → 2돌파.</b></li>
+<li><b>여유가 생기면 전설 무기 파밍.</b> 전설 도안 거래소 구매 금지.</li>
+</ol>
+<h3>재료 수급 포인트</h3>
+<ul>
+<li><b>강화 비법서</b>: 엽전 상점(1.5만 엽전, 주 50개) + 멤버십 원격 상점 50개 + 단각 교환(20→1, 일 20개).</li>
+<li><b>비경 일일 1시간</b>: 강화 재료 부족 → 영험한 청산 지하동굴 / 요혼석 → 망자의 마을 / 엽전 → 옛 귀족 지구. 노물약으로 버티는 최고 단계.</li>
+<li><b>전래동화 비경 주 5시간</b>: 팥쥐의 들녘(별의 조각) → 도안 생기면 원님고개.</li>
+<li><b>사냥터 이동 기준</b>: 노물약 + 분당 처치 수가 황무지 이상이면 위로, 물약을 먹으면 한 단계 아래로.</li>
+</ul>
+<p class="note">20만 이후 구간은 공략 자료가 아직 적다. 순서는 커뮤니티 공통 의견 기준이며, 사냥터·도술 빌드는 최신 갤러리 글로 한 번 더 확인할 것.</p>
+</div>
+
+<h2 id="routine">매일·매주 루틴</h2>
+<div class="cols">
+<div class="card"><b>매일</b>
+<ul class="check">
+<li><label><input type="checkbox">영기 수련 다음 단계 걸기</label></li>
+<li><label><input type="checkbox">일일 임무</label></li>
+<li><label><input type="checkbox">필드보스 (20:00)</label></li>
+<li><label><input type="checkbox">문파 콘텐츠</label></li>
+<li><label><input type="checkbox">엽전 상점 (복순이 + 원격)</label></li>
+<li><label><input type="checkbox">비경 1시간</label></li>
+<li><label><input type="checkbox">종료 전 자동사냥 세팅</label></li>
+</ul></div>
+<div class="card"><b>매주</b>
+<ul class="check">
+<li><label><input type="checkbox">원님고개 5시간 (수 05시 전)</label></li>
+<li><label><input type="checkbox">레이드 티켓 (15만 이후)</label></li>
+<li><label><input type="checkbox">낙화의 전장 주간 임무 (400마리)</label></li>
+<li><label><input type="checkbox">단각 상점 교환</label></li>
+<li><label><input type="checkbox">수요일 패치노트 확인</label></li>
+</ul></div>
+</div>
+<p class="note">체크 표시는 이 페이지에만 임시로 남습니다. 실제 숙제 관리는 홈의 <a href="./">숙제 탭</a>을 쓰세요.</p>
+
+<h2 id="money">재화 우선순위와 피해야 할 실수</h2>
+<div class="tbl"><table>
+<tr><th>상점</th><th>구매 순서</th></tr>
+<tr><td>엽전 상점</td><td>천요석 → 영웅 장비 강화 비법서 → 도술 강화 요령서 → 영웅 가호의 정수</td></tr>
+<tr><td>단각 상점</td><td>가호 주머니 → 요혼석 → 영웅 장비 강화 비법서 → 엽전 → 도술 강화 요령서</td></tr>
+<tr><td>금전</td><td>전투 멤버십 최우선</td></tr>
+</table></div>
+<div class="note warn"><b>하지 말 것</b>
+<ul>
+<li>영웅·전설 도안 거래소 구매 — 재료가 없어 못 만든다</li>
+<li>영웅 무기 하나에 천요석·비법서 몰빵 (4돌파 등)</li>
+<li>15만 전 레이드 티켓 소모</li>
+<li>도술 조각·요령서 선택상자 조기 개봉 (필수 유틸 수령 제외)</li>
+<li>중복 장비 분해 — 각성 재료</li>
+<li>물약 먹으며 사냥, 보스전 자동전투</li>
+</ul></div>
+
+<h2 id="faq">자주 묻는 질문</h2>
+<dl class="faq">
+<dt>보스가 안 잡혀요.</dt><dd>자동전투 끄기, 영기 수련으로 도술 슬롯 확장, 생명의 기운 강화. 보스전은 절명 도술 3개 + 요혼격 조합도 추천된다.</dd>
+<dt>메인퀘가 비명동굴에서 막혔어요.</dt><dd>정상. 서브퀘·일일 임무 정리 후 희귀 장비 강화를 끝내면 다시 진행된다.</dd>
+<dt>엽전이 계속 모자라요.</dt><dd>노물약 사냥 수익(분당 700~800)을 기준으로, 엽전 비경(옛 귀족 지구)도 활용. 상점 순서를 지킨다.</dd>
+<dt>도술 요령서는 언제 쓰나요?</dt><dd>성장 구간에 20~30강까지 올리면 사냥 속도가 확실히 빨라진다. 엽전 상점 구매는 신중하게.</dd>
+<dt>20만 이후 뭘 먼저 올리나요?</dt><dd>영웅 무기 2~3돌파 → 방어구 6부위 제작 → 레이드 3단 S로 장신구. 한 부위 몰빵보다 부위 수를 먼저 채운다.</dd>
+</dl>
+
+<h2>참고 자료</h2>
+<ul class="src">
+<li><a href="https://gall.dcinside.com/mgallery/board/view/?id=tokkebiworld&no=103730" target="_blank" rel="noopener">뉴비가 뉴비를 위해 쓰는 뉴비가이드 (~13만)</a> — 도깨비의 세계 갤러리</li>
+<li><a href="https://gall.dcinside.com/mgallery/board/view/?id=tokkebiworld&no=120516" target="_blank" rel="noopener">뉴비가이드 2 (13만~20만)</a> — 도깨비의 세계 갤러리</li>
+<li><a href="https://gall.dcinside.com/mgallery/board/view/?id=tokkebiworld&no=178880" target="_blank" rel="noopener">장비 스펙업 순서</a> — 도깨비의 세계 갤러리</li>
+<li><a href="https://gall.dcinside.com/mgallery/board/view/?id=tokkebiworld&no=68880" target="_blank" rel="noopener">영웅 방어구·장신구 뽑는 순서</a> — 도깨비의 세계 갤러리</li>
+<li><a href="http://www.gamey.kr/news/articleView.html?idxno=3019093" target="_blank" rel="noopener">만렙 이후 전투력 높이는 방법</a> — 게임와이</li>
+<li><a href="https://www.gameple.co.kr/news/articleView.html?idxno=216654" target="_blank" rel="noopener">보스전이 막힌다면</a> · <a href="https://www.gameple.co.kr/news/articleView.html?idxno=216697" target="_blank" rel="noopener">영웅 장비 가이드</a> — 게임플</li>
+<li><a href="https://ssalmuk.com/community/CATE_community983/detail?code=B261012140" target="_blank" rel="noopener">무과금 전투력 8만 찍는 법</a> — 쌀먹</li>
+<li><a href="https://www.g-knowledge.com/2026/10/dokkaebi-world-f2p-bigyeong-guide.html" target="_blank" rel="noopener">무과금 비경 추천 총정리</a> — g-knowledge</li>
+</ul>
+</main>
+<footer>깨비노트 플러스 · 비공식 팬 사이트 · 게임 내 정보는 공식 공지가 우선합니다</footer>
+</body>
+</html>

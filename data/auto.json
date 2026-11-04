@@ -1,6 +1,22 @@
 {
  "notices": [
   {
+   "id": 1176596,
+   "board": "notice",
+   "title": "11월 4일(수) 정기 점검 완료 및 보상 지급 안내",
+   "date": "2026-11-04T10:00+09:00",
+   "tag": "보상",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1176596"
+  },
+  {
+   "id": 10859,
+   "board": "notice",
+   "title": "오류 및 개선사항 제보 통합 안내 [26/11/04 14:39 최신화]",
+   "date": "2026-11-04T10:00+09:00",
+   "tag": "안내",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=10859"
+  },
+  {
    "id": 1176258,
    "board": "notice",
    "title": "11월 4일(수) 점검 후 변경되는 확률 정보 안내",
@@ -11,7 +27,7 @@
   {
    "id": 1175960,
    "board": "update",
-   "title": "11월 4일(수) 업데이트 안내",
+   "title": "[내용수정] 11월 4일(수) 업데이트 안내",
    "date": "2026-11-04T09:39+09:00",
    "tag": "업데이트",
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=update&id=1175960"
@@ -59,7 +75,7 @@
   {
    "id": 1171646,
    "board": "notice",
-   "title": "11월 4일(수) 정기 점검 안내",
+   "title": "[내용수정][완료] 11월 4일(수) 정기 점검 안내",
    "date": "2026-11-04T00:49+09:00",
    "tag": "점검",
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1171646"
@@ -79,14 +95,6 @@
    "date": "2026-11-03T11:00+09:00",
    "tag": "방송",
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1160138"
-  },
-  {
-   "id": 10859,
-   "board": "notice",
-   "title": "오류 및 개선사항 제보 통합 안내 [26/11/03 15:45 최신화]",
-   "date": "2026-11-02T19:00+09:00",
-   "tag": "안내",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=10859"
   },
   {
    "id": 1149697,
@@ -217,14 +225,6 @@
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1029210"
   },
   {
-   "id": 1028946,
-   "board": "notice",
-   "title": "[완료][내용추가] 10월 28일(수) 임시 점검 안내",
-   "date": "2026-10-28T18:27+09:00",
-   "tag": "점검",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1028946"
-  },
-  {
    "id": 9285,
    "board": "event",
    "title": "도사님을 위한 이벤트 한눈에 보기!",
@@ -323,18 +323,18 @@
  ],
  "pinned": [
   {
-   "id": 1171646,
+   "id": 1176596,
    "board": "notice",
-   "title": "11월 4일(수) 정기 점검 안내",
-   "date": "2026-11-04T00:49+09:00",
-   "tag": "점검",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1171646"
+   "title": "11월 4일(수) 정기 점검 완료 및 보상 지급 안내",
+   "date": "2026-11-04T10:00+09:00",
+   "tag": "보상",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1176596"
   },
   {
    "id": 10859,
    "board": "notice",
-   "title": "오류 및 개선사항 제보 통합 안내 [26/11/03 15:45 최신화]",
-   "date": "2026-11-02T19:00+09:00",
+   "title": "오류 및 개선사항 제보 통합 안내 [26/11/04 14:39 최신화]",
+   "date": "2026-11-04T10:00+09:00",
    "tag": "안내",
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=10859"
   },
@@ -602,14 +602,6 @@
    "official": false
   },
   {
-   "id": "qkJIZSuXpBA",
-   "title": "도깨비의세계 LIVE 👾 [26.11.03]",
-   "channel": "도깨비의세계 공식",
-   "date": "2026-11-03T21:58+09:00",
-   "views": null,
-   "official": true
-  },
-  {
    "id": "JeK1FDA2698",
    "title": "[도깨비의 세계]7시30분 공식라방  전설도안 먹었습니다  간달프덱 메테오6돌ㅋ_ㅋ 2200회피 32만투력 전설가호 [무 소과금 꿀팁  정보 공유]  #도깨비 #슈퍼캣",
    "channel": "깨비야",
@@ -736,7 +728,15 @@
    "date": "2026-11-01T14:18+09:00",
    "views": null,
    "official": false
+  },
+  {
+   "id": "mtAsViModbU",
+   "title": "도깨비 무과금 사냥터 전략 공략 11가지 - 인정하고 내실 다지자...",
+   "channel": "도모",
+   "date": "2026-11-01T14:00+09:00",
+   "views": null,
+   "official": false
   }
  ],
- "updated_at": "2026-11-04T14:14+09:00"
+ "updated_at": "2026-11-04T14:47+09:00"
 }

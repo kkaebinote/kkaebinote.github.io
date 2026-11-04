@@ -546,10 +546,18 @@
  ],
  "videos": [
   {
-   "id": "_6cAL7M5AJw",
-   "title": "[도깨비의세계] 제자리 사냥 셋팅법과 신규 도술 얻는방법 / 도술 밸런스 패치 - 11.4 업뎃리뷰",
+   "id": "Czv9eDNO3fM",
+   "title": "도깨비 무과금 전래동화, 도술 강화 요령서 공략 10가지 - 계산법",
+   "channel": "도모",
+   "date": "2026-11-04T15:00+09:00",
+   "views": null,
+   "official": false
+  },
+  {
+   "id": "pgD90Lj1vxs",
+   "title": "[도깨비의세계] 도술, 사냥터 개편 - 신규 컨텐츠 업뎃 리뷰 , 전설무기도안 먹었습니다! / 쵸피 무이1",
    "channel": "쵸튜브[쵸피]",
-   "date": "2026-11-04T13:00+09:00",
+   "date": "2026-11-04T15:00+09:00",
    "views": null,
    "official": false
   },
@@ -616,6 +624,14 @@
    "date": "2026-11-03T21:30+09:00",
    "views": null,
    "official": false
+  },
+  {
+   "id": "qkJIZSuXpBA",
+   "title": "도깨비의세계 LIVE 👾 [26.11.03]",
+   "channel": "도깨비의세계 공식",
+   "date": "2026-11-03T21:00+09:00",
+   "views": null,
+   "official": true
   },
   {
    "id": "ZHUbHkQU85c",
@@ -720,23 +736,7 @@
    "date": "2026-11-01T23:21+09:00",
    "views": null,
    "official": false
-  },
-  {
-   "id": "arotTF0c8W4",
-   "title": "[도깨비의세계] 490K 이강인덱 사냥중 조화단 득템 방어 몰빵 기동덱 창시자",
-   "channel": "맛나는꼬꼬",
-   "date": "2026-11-01T14:18+09:00",
-   "views": null,
-   "official": false
-  },
-  {
-   "id": "mtAsViModbU",
-   "title": "도깨비 무과금 사냥터 전략 공략 11가지 - 인정하고 내실 다지자...",
-   "channel": "도모",
-   "date": "2026-11-01T14:00+09:00",
-   "views": null,
-   "official": false
   }
  ],
- "updated_at": "2026-11-04T14:47+09:00"
+ "updated_at": "2026-11-04T16:35+09:00"
 }

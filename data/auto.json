@@ -1,6 +1,14 @@
 {
  "notices": [
   {
+   "id": 1171646,
+   "board": "notice",
+   "title": "11월 4일(수) 정기 점검 안내",
+   "date": "2026-11-04T00:49+09:00",
+   "tag": "점검",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1171646"
+  },
+  {
    "id": 1164802,
    "board": "notice",
    "title": "비정상적인 게임 진행 관련 계정 제재 및 보호 조치 안내 <24차>",
@@ -169,14 +177,6 @@
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1021818"
   },
   {
-   "id": 1018352,
-   "board": "notice",
-   "title": "[링크추가] 10월 28일(수) 13:00 라이브 방송 안내",
-   "date": "2026-10-28T12:08+09:00",
-   "tag": "방송",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1018352"
-  },
-  {
    "id": 9285,
    "board": "event",
    "title": "도사님을 위한 이벤트 한눈에 보기!",
@@ -323,6 +323,14 @@
  ],
  "pinned": [
   {
+   "id": 1171646,
+   "board": "notice",
+   "title": "11월 4일(수) 정기 점검 안내",
+   "date": "2026-11-04T00:49+09:00",
+   "tag": "점검",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1171646"
+  },
+  {
    "id": 10859,
    "board": "notice",
    "title": "오류 및 개선사항 제보 통합 안내 [26/11/03 15:45 최신화]",
@@ -380,11 +388,11 @@
   }
  ],
  "maintenance": {
-  "title": "[점검연장] 10월 31일(토) 임시 점검 안내",
-  "kind": "임시",
-  "start": "2026-10-31T07:00+09:00",
-  "end": "2026-10-31T09:00+09:00",
-  "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1099884"
+  "title": "11월 4일(수) 정기 점검 안내",
+  "kind": "정기",
+  "start": "2026-11-04T06:00+09:00",
+  "end": "2026-11-04T10:00+09:00",
+  "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1171646"
  },
  "coupons": [
   {
@@ -538,27 +546,11 @@
  ],
  "videos": [
   {
-   "id": "xnoqfKZESo4",
-   "title": "[도깨비의 세계] 무과금 필수! 영웅가호 선택가이드 [잘못받으면 후회합니다]",
-   "channel": "투즈TV",
-   "date": "2026-11-04T06:12+09:00",
-   "views": 1334,
-   "official": false
-  },
-  {
-   "id": "GKATtUS1GE8",
-   "title": "[도깨비의세계] 영웅가호 선택가이드 - 비싸지기전에 보세요 / 무소과금 최고효율을 내기",
-   "channel": "쵸튜브[쵸피]",
-   "date": "2026-11-04T06:00+09:00",
-   "views": 4006,
-   "official": false
-  },
-  {
    "id": "DT_k6h1rKs0",
    "title": "[도깨비의세계] 7시반 공식방송 대기방 / 오늘 또한번 메타 바뀌나요? ㅋㅋㅋㅋ",
    "channel": "투즈TV",
    "date": "2026-11-04T05:16+09:00",
-   "views": 42857,
+   "views": null,
    "official": false
   },
   {
@@ -566,7 +558,7 @@
    "title": "1부 도깨비의세계 // 2부 와우 패치노트 // 3부 붉은사막 유령선, 잠수함",
    "channel": "센터로드TV",
    "date": "2026-11-04T04:22+09:00",
-   "views": 41766,
+   "views": null,
    "official": false
   },
   {
@@ -574,7 +566,7 @@
    "title": "🛑도깨비의 세계🔥와!! ㄹㅈㄷ 절명 대떡상 ★★ 라방정리 끝│ 문파 + 무소과공략 단일/범위 오지조 방향성",
    "channel": "오지조",
    "date": "2026-11-04T02:35+09:00",
-   "views": 3082,
+   "views": null,
    "official": false
   },
   {
@@ -582,31 +574,7 @@
    "title": "[도깨비의세계] 7시30분 공식라방 - 절명 상향될까..? 도술개편 기대중 / 쵸피 무이1",
    "channel": "쵸튜브[쵸피]",
    "date": "2026-11-04T01:10+09:00",
-   "views": 40173,
-   "official": false
-  },
-  {
-   "id": "CxPbPLWbHLw",
-   "title": "[도깨비의 세계] 기운돌파100%, 도술 초기화😮11.03 공식방송 핵심35가지 정리",
-   "channel": "투즈TV",
-   "date": "2026-11-03T23:12+09:00",
-   "views": 10267,
-   "official": false
-  },
-  {
-   "id": "geDTykFSPb8",
-   "title": "도술 똥밸런스에 결국 제작진이 선택한 방법 [도깨비의세계]",
-   "channel": "센터로드TV",
-   "date": "2026-11-03T22:44+09:00",
-   "views": 20716,
-   "official": false
-  },
-  {
-   "id": "Jv-dIam8gfg",
-   "title": "[도깨비의세계] 📢 중요 - 당장 요혼석 쓰고, 도술 강화서 사세요 / 도술 전체 초기화와 교체시스템 / 11.3 공식 라방 정리",
-   "channel": "쵸튜브[쵸피]",
-   "date": "2026-11-03T22:19+09:00",
-   "views": 40372,
+   "views": null,
    "official": false
   },
   {
@@ -614,7 +582,7 @@
    "title": "도깨비의세계 LIVE 👾 [26.11.03]",
    "channel": "도깨비의세계 공식",
    "date": "2026-11-03T21:58+09:00",
-   "views": 72066,
+   "views": null,
    "official": true
   },
   {
@@ -622,7 +590,7 @@
    "title": "[도깨비의 세계]7시30분 공식라방  전설도안 먹었습니다  간달프덱 메테오6돌ㅋ_ㅋ 2200회피 32만투력 전설가호 [무 소과금 꿀팁  정보 공유]  #도깨비 #슈퍼캣",
    "channel": "깨비야",
    "date": "2026-11-03T21:32+09:00",
-   "views": 51816,
+   "views": null,
    "official": false
   },
   {
@@ -630,7 +598,7 @@
    "title": "도깨비의 세계🔥도술·전설무기 갈아타기│또 사재기 도술요령서?? ♻️초기화의 세계",
    "channel": "오지조",
    "date": "2026-11-03T21:30+09:00",
-   "views": 8087,
+   "views": null,
    "official": false
   },
   {
@@ -638,15 +606,7 @@
    "title": "도깨비 무과금 생방송 총정리 - 무기 교체, 도술 초기화, 강화와 돌파의 분리?!",
    "channel": "도모",
    "date": "2026-11-03T20:59+09:00",
-   "views": 26725,
-   "official": false
-  },
-  {
-   "id": "1f2vb4wFy_s",
-   "title": "[도깨비의 세계] 무과금 희망 전설무기 효율리뷰 [어떻게든 빨리 도안을 획득해야하는 이유]",
-   "channel": "투즈TV",
-   "date": "2026-11-03T17:33+09:00",
-   "views": 17689,
+   "views": null,
    "official": false
   },
   {
@@ -654,7 +614,7 @@
    "title": "도깨비 무과금 비경 2단 90~100만 엽전 먹는 법 - 전설 장비 강화 비법서 하루 몇개?",
    "channel": "도모",
    "date": "2026-11-03T16:43+09:00",
-   "views": 12103,
+   "views": null,
    "official": false
   },
   {
@@ -662,7 +622,7 @@
    "title": "[도깨비의세계] 이강인덱 활용한 체력 회복 빌드💥이것만 알아두면 사냥터 상승",
    "channel": "맛나는꼬꼬",
    "date": "2026-11-03T15:30+09:00",
-   "views": 11601,
+   "views": null,
    "official": false
   },
   {
@@ -670,23 +630,15 @@
    "title": "[도깨비의세계] 530K 이강인덱 사냥중 체력 회복 5700 돌파 기동덱 창시자",
    "channel": "맛나는꼬꼬",
    "date": "2026-11-03T12:52+09:00",
-   "views": 10689,
+   "views": null,
    "official": false
   },
   {
-   "id": "AH-fFv6Pij4",
-   "title": "[도깨비의세계] 패치 후 벽력일섬 \"기동덱\" 최후의 리뷰 / 낭만의 도술",
-   "channel": "쵸튜브[쵸피]",
-   "date": "2026-11-03T11:32+09:00",
-   "views": 26375,
-   "official": false
-  },
-  {
-   "id": "Bdh2O41aHj4",
-   "title": "[도깨비의세계] 현재 핫한 170k \"우물동굴 사냥 리뷰\" - 도술 50강화 빌드",
-   "channel": "쵸튜브[쵸피]",
-   "date": "2026-11-03T07:58+09:00",
-   "views": 36669,
+   "id": "2qxTTmtb70U",
+   "title": "[도깨비의세계] 490K 이강인덱 사냥중 전설 도안 득템 방어 몰빵 기동덱 창시자",
+   "channel": "맛나는꼬꼬",
+   "date": "2026-11-03T09:00+09:00",
+   "views": null,
    "official": false
   },
   {
@@ -694,7 +646,7 @@
    "title": "[도깨비의세계] 성장의길 뚫었습니다! 공스펙업 가즈아",
    "channel": "투즈TV",
    "date": "2026-11-03T03:02+09:00",
-   "views": 31233,
+   "views": null,
    "official": false
   },
   {
@@ -702,23 +654,7 @@
    "title": "[도깨비의세계] 시청자들도 놀란 강타 6돌파 레전드 장면😱이건 진짜 미쳤다",
    "channel": "맛나는꼬꼬",
    "date": "2026-11-02T19:00+09:00",
-   "views": 8492,
-   "official": false
-  },
-  {
-   "id": "ek_vB1qsrts",
-   "title": "[도깨비의세계] 무과금 최고 효율 신규 \"내면의길 가이드\" - 사냥터 한단계 업그레이드 /기개의 장, 성장의 장",
-   "channel": "쵸튜브[쵸피]",
-   "date": "2026-11-02T17:35+09:00",
-   "views": 36349,
-   "official": false
-  },
-  {
-   "id": "XG_qQJe1jDE",
-   "title": "[도깨비의 세계] 9시간 실험결과🔥상시재료던전 vs 일반필드 어디가 더 이득일까?",
-   "channel": "투즈TV",
-   "date": "2026-11-02T16:45+09:00",
-   "views": 63764,
+   "views": null,
    "official": false
   },
   {
@@ -726,9 +662,81 @@
    "title": "도깨비 무과금 전설 장비 + 전설 강화 비법서 이렇게 가면 됩니다. 20가지 공략",
    "channel": "도모",
    "date": "2026-11-02T16:17+09:00",
-   "views": 42587,
+   "views": null,
+   "official": false
+  },
+  {
+   "id": "6l8qHTznolA",
+   "title": "도깨비 무과금 성장 방향 총정리! - 전설 무기, 360K 전강비, 도술 등등",
+   "channel": "도모",
+   "date": "2026-11-02T09:00+09:00",
+   "views": null,
+   "official": false
+  },
+  {
+   "id": "hWKn7800fR0",
+   "title": "도깨비 무과금 상시비경 14시간 후기 - 10일 내실 스펙업 계획!! (메테오 6돌, 강타 30렙, 강인 30렙, 전설 방어구 + 전설 악세 제작)",
+   "channel": "도모",
+   "date": "2026-11-02T09:00+09:00",
+   "views": null,
+   "official": false
+  },
+  {
+   "id": "jNfLaIOnJaE",
+   "title": "[도깨비의세계] 전설무기 획득! 이제 재료파밍 몰빵합니다 ㅎㅎ / 파멸빌드 떡상?",
+   "channel": "투즈TV",
+   "date": "2026-11-02T09:00+09:00",
+   "views": null,
+   "official": false
+  },
+  {
+   "id": "arotTF0c8W4",
+   "title": "[도깨비의세계] 490K 이강인덱 사냥중 조화단 득템 방어 몰빵 기동덱 창시자",
+   "channel": "맛나는꼬꼬",
+   "date": "2026-11-02T09:00+09:00",
+   "views": null,
+   "official": false
+  },
+  {
+   "id": "rLe_qH7tSNU",
+   "title": "[도깨비의 세계]비경이 미쳤네  단은 어디서나 잘캐는데? 간달프덱 메테오6돌ㅋ_ㅋ 2200회피 31만투력 전설가호 [무 소과금 꿀팁  정보 공유]  #도깨비 #슈퍼캣",
+   "channel": "깨비야",
+   "date": "2026-11-02T09:00+09:00",
+   "views": null,
+   "official": false
+  },
+  {
+   "id": "qwbjRUguWCU",
+   "title": "🛑도깨비의 세계🔥★절명단 50+돌파  깡공 2.9 레이드4단계 S등급 ㄱㄱ │ 문파원버스 까지",
+   "channel": "오지조",
+   "date": "2026-11-02T09:00+09:00",
+   "views": null,
+   "official": false
+  },
+  {
+   "id": "mtAsViModbU",
+   "title": "도깨비 무과금 사냥터 전략 공략 11가지 - 인정하고 내실 다지자...",
+   "channel": "도모",
+   "date": "2026-11-01T09:00+09:00",
+   "views": null,
+   "official": false
+  },
+  {
+   "id": "UyDC7U1EHM4",
+   "title": "[도깨비의세계] 파멸 6돌 메테오 떡상했네요? - 무과금 캐릭터 실험 / 쵸피 무이1",
+   "channel": "쵸튜브[쵸피]",
+   "date": "2026-11-01T09:00+09:00",
+   "views": null,
+   "official": false
+  },
+  {
+   "id": "S7JddQhtRfY",
+   "title": "[도깨비의세계] 전섭 최초 조화단 처음으로 득템🔥결과 보상 이게 뜬다고?",
+   "channel": "맛나는꼬꼬",
+   "date": "2026-11-01T09:00+09:00",
+   "views": null,
    "official": false
   }
  ],
- "updated_at": "2026-11-04T07:59+09:00"
+ "updated_at": "2026-11-04T09:22+09:00"
 }

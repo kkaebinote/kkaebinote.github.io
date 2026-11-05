@@ -323,14 +323,6 @@
  ],
  "pinned": [
   {
-   "id": 1188148,
-   "board": "notice",
-   "title": "[링크추가] 11월 5일(목) 13:00 소통 라이브 방송 안내",
-   "date": "2026-11-05T11:03+09:00",
-   "tag": "방송",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1188148"
-  },
-  {
    "id": 1181709,
    "board": "notice",
    "title": "[내용추가] 11월 4일(수) 업데이트 이후 확인된 사항 안내",
@@ -722,6 +714,14 @@
    "official": false
   },
   {
+   "id": "m1hMcM4K4jM",
+   "title": "[도깨비의세계] 530K 이강인덱 사냥중 체력 회복 5700 돌파 기동덱 창시자",
+   "channel": "맛나는꼬꼬",
+   "date": "2026-11-03T16:00+09:00",
+   "views": null,
+   "official": false
+  },
+  {
    "id": "14iu-8srCng",
    "title": "[도깨비의세계] 이강인덱 활용한 체력 회복 빌드💥이것만 알아두면 사냥터 상승",
    "channel": "맛나는꼬꼬",
@@ -744,15 +744,7 @@
    "date": "2026-11-03T13:00+09:00",
    "views": null,
    "official": false
-  },
-  {
-   "id": "BvzP1QbVKxk",
-   "title": "[도깨비의세계] 시청자들도 놀란 강타 6돌파 레전드 장면😱이건 진짜 미쳤다",
-   "channel": "맛나는꼬꼬",
-   "date": "2026-11-03T13:00+09:00",
-   "views": null,
-   "official": false
   }
  ],
- "updated_at": "2026-11-05T16:37+09:00"
+ "updated_at": "2026-11-05T16:56+09:00"
 }

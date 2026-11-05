@@ -1,6 +1,14 @@
 {
  "notices": [
   {
+   "id": 1188148,
+   "board": "notice",
+   "title": "[링크추가] 11월 5일(목) 13:00 소통 라이브 방송 안내",
+   "date": "2026-11-05T11:03+09:00",
+   "tag": "방송",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1188148"
+  },
+  {
    "id": 1182471,
    "board": "notice",
    "title": "낙화의 전장 일부 계급 기준 및 보상 조정 예정 안내",
@@ -27,7 +35,7 @@
   {
    "id": 10859,
    "board": "notice",
-   "title": "오류 및 개선사항 제보 통합 안내 [26/11/04 18:42 최신화]",
+   "title": "오류 및 개선사항 제보 통합 안내 [26/11/05 12:30 최신화]",
    "date": "2026-11-04T18:42+09:00",
    "tag": "안내",
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=10859"
@@ -35,7 +43,7 @@
   {
    "id": 1180529,
    "board": "notice",
-   "title": "11월 4일(수) PC 버전 업데이트 안내(Android(구글) 추가)",
+   "title": "[내용추가] 11월 4일(수) PC 버전 업데이트 안내(Android(구글),iOS(애플) 추가)",
    "date": "2026-11-04T17:10+09:00",
    "tag": "안내",
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1180529"
@@ -217,14 +225,6 @@
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1089693"
   },
   {
-   "id": 1083153,
-   "board": "notice",
-   "title": "[링크추가] 10월 30일(금) 18:30 소통 라이브 방송 안내",
-   "date": "2026-10-30T13:27+09:00",
-   "tag": "방송",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1083153"
-  },
-  {
    "id": 9285,
    "board": "event",
    "title": "도사님을 위한 이벤트 한눈에 보기!",
@@ -323,6 +323,14 @@
  ],
  "pinned": [
   {
+   "id": 1188148,
+   "board": "notice",
+   "title": "[링크추가] 11월 5일(목) 13:00 소통 라이브 방송 안내",
+   "date": "2026-11-05T11:03+09:00",
+   "tag": "방송",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1188148"
+  },
+  {
    "id": 1181709,
    "board": "notice",
    "title": "[내용추가] 11월 4일(수) 업데이트 이후 확인된 사항 안내",
@@ -333,7 +341,7 @@
   {
    "id": 10859,
    "board": "notice",
-   "title": "오류 및 개선사항 제보 통합 안내 [26/11/04 18:42 최신화]",
+   "title": "오류 및 개선사항 제보 통합 안내 [26/11/05 12:30 최신화]",
    "date": "2026-11-04T18:42+09:00",
    "tag": "안내",
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=10859"
@@ -341,7 +349,7 @@
   {
    "id": 1180529,
    "board": "notice",
-   "title": "11월 4일(수) PC 버전 업데이트 안내(Android(구글) 추가)",
+   "title": "[내용추가] 11월 4일(수) PC 버전 업데이트 안내(Android(구글),iOS(애플) 추가)",
    "date": "2026-11-04T17:10+09:00",
    "tag": "안내",
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1180529"
@@ -554,6 +562,22 @@
  ],
  "videos": [
   {
+   "id": "PjDF3pWyOQs",
+   "title": "[도깨비의세계] 1시 긴급라방 / 쵸피 무이1",
+   "channel": "쵸튜브[쵸피]",
+   "date": "2026-11-05T11:54+09:00",
+   "views": 0,
+   "official": false
+  },
+  {
+   "id": "H49k0lCuXfQ",
+   "title": "[도깨비의세계] 735K 이강인덱 사냥중 제자리 사냥 설정 꿀팁 기동덱 창시자",
+   "channel": "맛나는꼬꼬",
+   "date": "2026-11-05T08:17+09:00",
+   "views": 8646,
+   "official": false
+  },
+  {
    "id": "b7N9desx43w",
    "title": "[도깨비의세계] 업데이트 리뷰 가즈아!! / 빌드실험 + 해야할것",
    "channel": "투즈TV",
@@ -566,7 +590,15 @@
    "title": "[도깨비의세계] 도술, 사냥터 개편 - 신규 컨텐츠 업뎃 리뷰 , 전설무기도안 먹었습니다! / 쵸피 무이1",
    "channel": "쵸튜브[쵸피]",
    "date": "2026-11-05T00:40+09:00",
-   "views": null,
+   "views": 47465,
+   "official": false
+  },
+  {
+   "id": "S_MswCGg2zc",
+   "title": "[도깨비의세계] 패치후 달라진 비경던전 vs 일반필드 / 무과금도 8일후 확정 전설무기 획득",
+   "channel": "쵸튜브[쵸피]",
+   "date": "2026-11-04T18:45+09:00",
+   "views": 56695,
    "official": false
   },
   {
@@ -582,7 +614,7 @@
    "title": "[도깨비의세계] 운영자도 예측 못한 제자리 사냥 설정법⚡강타 도술 떡상입니다",
    "channel": "맛나는꼬꼬",
    "date": "2026-11-04T17:30+09:00",
-   "views": null,
+   "views": 37637,
    "official": false
   },
   {
@@ -590,7 +622,7 @@
    "title": "[도깨비의세계] 735K 이강인덱 사냥중 체력 회복 6000 달성 기동덱 창시자",
    "channel": "맛나는꼬꼬",
    "date": "2026-11-04T16:02+09:00",
-   "views": null,
+   "views": 4101,
    "official": false
   },
   {
@@ -599,6 +631,14 @@
    "channel": "도모",
    "date": "2026-11-04T15:48+09:00",
    "views": null,
+   "official": false
+  },
+  {
+   "id": "_6cAL7M5AJw",
+   "title": "[도깨비의세계] 제자리 사냥 셋팅법과 신규 도술 얻는방법 / 도술 밸런스 패치 - 11.4 업뎃리뷰",
+   "channel": "쵸튜브[쵸피]",
+   "date": "2026-11-04T13:16+09:00",
+   "views": 37406,
    "official": false
   },
   {
@@ -642,19 +682,11 @@
    "official": false
   },
   {
-   "id": "14iu-8srCng",
-   "title": "[도깨비의세계] 이강인덱 활용한 체력 회복 빌드💥이것만 알아두면 사냥터 상승",
-   "channel": "맛나는꼬꼬",
-   "date": "2026-11-04T09:00+09:00",
-   "views": null,
-   "official": false
-  },
-  {
-   "id": "m1hMcM4K4jM",
-   "title": "[도깨비의세계] 530K 이강인덱 사냥중 체력 회복 5700 돌파 기동덱 창시자",
-   "channel": "맛나는꼬꼬",
-   "date": "2026-11-04T09:00+09:00",
-   "views": null,
+   "id": "GKATtUS1GE8",
+   "title": "[도깨비의세계] 영웅가호 선택가이드 - 비싸지기전에 보세요 / 무소과금 최고효율을 내기",
+   "channel": "쵸튜브[쵸피]",
+   "date": "2026-11-04T06:00+09:00",
+   "views": 34221,
    "official": false
   },
   {
@@ -670,7 +702,7 @@
    "title": "1부 도깨비의세계 // 2부 와우 패치노트 // 3부 붉은사막 유령선, 잠수함",
    "channel": "센터로드TV",
    "date": "2026-11-04T04:22+09:00",
-   "views": null,
+   "views": 43126,
    "official": false
   },
   {
@@ -678,7 +710,23 @@
    "title": "[도깨비의세계] 7시30분 공식라방 - 절명 상향될까..? 도술개편 기대중 / 쵸피 무이1",
    "channel": "쵸튜브[쵸피]",
    "date": "2026-11-04T01:10+09:00",
-   "views": null,
+   "views": 40368,
+   "official": false
+  },
+  {
+   "id": "geDTykFSPb8",
+   "title": "도술 똥밸런스에 결국 제작진이 선택한 방법 [도깨비의세계]",
+   "channel": "센터로드TV",
+   "date": "2026-11-03T22:44+09:00",
+   "views": 34037,
+   "official": false
+  },
+  {
+   "id": "Jv-dIam8gfg",
+   "title": "[도깨비의세계] 📢 중요 - 당장 요혼석 쓰고, 도술 강화서 사세요 / 도술 전체 초기화와 교체시스템 / 11.3 공식 라방 정리",
+   "channel": "쵸튜브[쵸피]",
+   "date": "2026-11-03T22:19+09:00",
+   "views": 61447,
    "official": false
   },
   {
@@ -698,53 +746,13 @@
    "official": false
   },
   {
-   "id": "q1Guq3E-rQY",
-   "title": "도깨비 무과금 전설 장비 + 전설 강화 비법서 이렇게 가면 됩니다. 20가지 공략",
-   "channel": "도모",
-   "date": "2026-11-03T09:00+09:00",
-   "views": null,
-   "official": false
-  },
-  {
-   "id": "DnbPAvBHIec",
-   "title": "[도깨비의세계] 성장의길 뚫었습니다! 공스펙업 가즈아",
-   "channel": "투즈TV",
-   "date": "2026-11-03T09:00+09:00",
-   "views": null,
-   "official": false
-  },
-  {
-   "id": "BvzP1QbVKxk",
-   "title": "[도깨비의세계] 시청자들도 놀란 강타 6돌파 레전드 장면😱이건 진짜 미쳤다",
+   "id": "14iu-8srCng",
+   "title": "[도깨비의세계] 이강인덱 활용한 체력 회복 빌드💥이것만 알아두면 사냥터 상승",
    "channel": "맛나는꼬꼬",
-   "date": "2026-11-03T09:00+09:00",
-   "views": null,
-   "official": false
-  },
-  {
-   "id": "2qxTTmtb70U",
-   "title": "[도깨비의세계] 490K 이강인덱 사냥중 전설 도안 득템 방어 몰빵 기동덱 창시자",
-   "channel": "맛나는꼬꼬",
-   "date": "2026-11-03T09:00+09:00",
-   "views": null,
-   "official": false
-  },
-  {
-   "id": "6l8qHTznolA",
-   "title": "도깨비 무과금 성장 방향 총정리! - 전설 무기, 360K 전강비, 도술 등등",
-   "channel": "도모",
-   "date": "2026-11-02T12:00+09:00",
-   "views": null,
-   "official": false
-  },
-  {
-   "id": "hWKn7800fR0",
-   "title": "도깨비 무과금 상시비경 14시간 후기 - 10일 내실 스펙업 계획!! (메테오 6돌, 강타 30렙, 강인 30렙, 전설 방어구 + 전설 악세 제작)",
-   "channel": "도모",
-   "date": "2026-11-02T12:00+09:00",
-   "views": null,
+   "date": "2026-11-03T15:30+09:00",
+   "views": 17776,
    "official": false
   }
  ],
- "updated_at": "2026-11-05T12:06+09:00"
+ "updated_at": "2026-11-05T12:55+09:00"
 }

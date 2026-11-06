@@ -548,16 +548,32 @@
  ],
  "videos": [
   {
-   "id": "I-3n7Wgnr3M",
-   "title": "[도깨비의세계] 📢중요- 패치후 모든 사냥터 패널티 구간 분석 / 안보면 80%손해",
+   "id": "69rccvg7ItM",
+   "title": "[도깨비의세계] 패치후 비경재화 2배 획득 / 죽지않은 원펀덱",
    "channel": "쵸튜브[쵸피]",
-   "date": "2026-11-06T13:00+09:00",
+   "date": "2026-11-06T15:00+09:00",
+   "views": null,
+   "official": false
+  },
+  {
+   "id": "6z6oCM8wgDY",
+   "title": "[도깨비의세계] 제자리 사냥 활용한 무한 강타 좀비덱🔴이렇게 쓴다고?",
+   "channel": "맛나는꼬꼬",
+   "date": "2026-11-06T15:00+09:00",
    "views": null,
    "official": false
   },
   {
    "id": "XYutRlG2RG0",
    "title": "[도깨비의세계] 투력별 사냥터 효율 재조정 실험 / 쵸피 무이1",
+   "channel": "쵸튜브[쵸피]",
+   "date": "2026-11-06T13:00+09:00",
+   "views": null,
+   "official": false
+  },
+  {
+   "id": "I-3n7Wgnr3M",
+   "title": "[도깨비의세계] 📢중요- 패치후 모든 사냥터 패널티 구간 분석 / 안보면 80%손해",
    "channel": "쵸튜브[쵸피]",
    "date": "2026-11-06T13:00+09:00",
    "views": null,
@@ -590,14 +606,6 @@
   {
    "id": "h7Tmzvp_ECY",
    "title": "[도깨비의세계] 보법이 다른 오전7시 긴급라방 - 무한강타 이슈 / 쵸피 무이1",
-   "channel": "쵸튜브[쵸피]",
-   "date": "2026-11-06T08:00+09:00",
-   "views": null,
-   "official": false
-  },
-  {
-   "id": "ipoaZnxKEWY",
-   "title": "[도깨비의세계] 이젠 하향식 도술조정 / 투력별 사냥터 재조정 - 난리난 오전 7시 긴급라방 정리",
    "channel": "쵸튜브[쵸피]",
    "date": "2026-11-06T08:00+09:00",
    "views": null,
@@ -724,21 +732,13 @@
    "official": false
   },
   {
-   "id": "Czv9eDNO3fM",
-   "title": "도깨비 무과금 전래동화, 도술 강화 요령서 공략 10가지 - 계산법",
-   "channel": "도모",
-   "date": "2026-11-04T15:48+09:00",
+   "id": "qkJIZSuXpBA",
+   "title": "도깨비의세계 LIVE 👾 [26.11.03]",
+   "channel": "도깨비의세계 공식",
+   "date": "2026-11-04T16:00+09:00",
    "views": null,
-   "official": false
-  },
-  {
-   "id": "9a44hifdDUU",
-   "title": "도깨비 무과금 이거 설정 안 하면 개손해! 필수 공략 6가지! - 고정, 무기, 도술 등",
-   "channel": "도모",
-   "date": "2026-11-04T14:00+09:00",
-   "views": null,
-   "official": false
+   "official": true
   }
  ],
- "updated_at": "2026-11-06T14:15+09:00"
+ "updated_at": "2026-11-06T16:34+09:00"
 }

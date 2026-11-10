@@ -1,6 +1,14 @@
 {
  "notices": [
   {
+   "id": 1213962,
+   "board": "notice",
+   "title": "11월 11일(수) 05:00 비경 탐험 콘텐츠 이용 제한 예정 안내",
+   "date": "2026-11-10T22:55+09:00",
+   "tag": "안내",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1213962"
+  },
+  {
    "id": 1213779,
    "board": "notice",
    "title": "11월 11일(수) 정기 점검 안내",
@@ -151,14 +159,6 @@
    "date": "2026-11-05T18:46+09:00",
    "tag": "제재",
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1191519"
-  },
-  {
-   "id": 1188148,
-   "board": "notice",
-   "title": "[링크추가] 11월 5일(목) 13:00 소통 라이브 방송 안내",
-   "date": "2026-11-05T11:03+09:00",
-   "tag": "방송",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1188148"
   },
   {
    "id": 1175960,
@@ -323,6 +323,14 @@
  ],
  "pinned": [
   {
+   "id": 1213962,
+   "board": "notice",
+   "title": "11월 11일(수) 05:00 비경 탐험 콘텐츠 이용 제한 예정 안내",
+   "date": "2026-11-10T22:55+09:00",
+   "tag": "안내",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1213962"
+  },
+  {
    "id": 1213779,
    "board": "notice",
    "title": "11월 11일(수) 정기 점검 안내",
@@ -361,22 +369,6 @@
    "date": "2026-10-27T18:03+09:00",
    "tag": "안내",
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=979147"
-  },
-  {
-   "id": 794727,
-   "board": "notice",
-   "title": "안전한 거래소 이용을 위한 유의사항 안내",
-   "date": "2026-10-24T11:45+09:00",
-   "tag": "안내",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=794727"
-  },
-  {
-   "id": 162825,
-   "board": "notice",
-   "title": "[내용추가] 건전한 게임 환경 조성을 위한 불건전 캐릭터 명 집중 단속 및 조치 안내",
-   "date": "2026-10-16T19:38+09:00",
-   "tag": "안내",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=162825"
   },
   {
    "id": 13991,
@@ -560,7 +552,7 @@
    "title": "🛑도깨비의 세계🔥조화단 먹었네? 태초단 가즈아~ │ 강타꿀덱 ★ 19시30분 공식라이브 요약!",
    "channel": "오지조",
    "date": "2026-11-10T23:39+09:00",
-   "views": 1234,
+   "views": 1243,
    "official": false
   },
   {
@@ -568,7 +560,7 @@
    "title": "[도깨비의 세계] 무소과금 수호자 장비 필수됐습니다!! 11.12업데이트 미리보기+공식방송 정리",
    "channel": "투즈TV",
    "date": "2026-11-10T22:36+09:00",
-   "views": 2550,
+   "views": 2591,
    "official": false
   },
   {
@@ -576,7 +568,7 @@
    "title": "[도깨비의세계] 7시반 공식방송 대기방 / 490K 80마리 달성 [무소과금 꿀팁가이드]",
    "channel": "투즈TV",
    "date": "2026-11-10T22:09+09:00",
-   "views": 50904,
+   "views": 51403,
    "official": false
   },
   {
@@ -592,7 +584,7 @@
    "title": "[도깨비의세계] 📢당장 도술, 무기 돌파부터 하세요 / 수호자 전설장비 떡상 - 11.10 라방 정리",
    "channel": "쵸튜브[쵸피]",
    "date": "2026-11-10T22:00+09:00",
-   "views": 5360,
+   "views": 5398,
    "official": false
   },
   {
@@ -600,7 +592,7 @@
    "title": "[도깨비의 7시30분 공식라방!  ㅋ_ㅋ 3.8공 42만투력  [무 소과금 꿀팁  정보 공유]  #도깨비 #슈퍼캣",
    "channel": "깨비야",
    "date": "2026-11-10T21:05+09:00",
-   "views": 40344,
+   "views": 40393,
    "official": false
   },
   {
@@ -608,7 +600,7 @@
    "title": "도깨비 생방송 핵심 총정리 28가지 - 수호자 교체?! 제자리 삭제? ㄷㄷ 등등",
    "channel": "도모",
    "date": "2026-11-10T20:57+09:00",
-   "views": 7608,
+   "views": 7646,
    "official": false
   },
   {
@@ -624,7 +616,7 @@
    "title": "도깨비의세계 LIVE 👾 [26.11.10]",
    "channel": "도깨비의세계 공식",
    "date": "2026-11-10T20:41+09:00",
-   "views": 51409,
+   "views": 51498,
    "official": true
   },
   {
@@ -632,7 +624,7 @@
    "title": "[도깨비의세계] 뉴빌드 530K 분당 몰이강타덱 떡상중 기동덱 창시자",
    "channel": "맛나는꼬꼬",
    "date": "2026-11-10T17:33+09:00",
-   "views": 22014,
+   "views": 22015,
    "official": false
   },
   {
@@ -648,7 +640,7 @@
    "title": "[도깨비의세계] 대세는 \"강타덱\" - 사냥, 비경, PVP 원클릭 프리셋",
    "channel": "쵸튜브[쵸피]",
    "date": "2026-11-10T08:03+09:00",
-   "views": 24124,
+   "views": 24203,
    "official": false
   },
   {
@@ -672,7 +664,7 @@
    "title": "[도깨비의세계] 기동덱 이후로 사고친 몰이강타덱🔥누구나 가능한 광역 도술",
    "channel": "맛나는꼬꼬",
    "date": "2026-11-09T19:00+09:00",
-   "views": 23066,
+   "views": 23104,
    "official": false
   },
   {
@@ -688,7 +680,7 @@
    "title": "도깨비 무과금 360k 20시간 돌면 몇 금전 나올까? ( Full 방치 )",
    "channel": "도모",
    "date": "2026-11-09T12:03+09:00",
-   "views": 26261,
+   "views": 26266,
    "official": false
   },
   {
@@ -704,7 +696,7 @@
    "title": "[도깨비의세계] 파멸 국민덱 원클릭 프리셋 - 사냥, 보스, PVP",
    "channel": "쵸튜브[쵸피]",
    "date": "2026-11-09T08:00+09:00",
-   "views": 49066,
+   "views": 49108,
    "official": false
   },
   {
@@ -720,7 +712,7 @@
    "title": "도깨비🔥무소과금 육성⭐30일 최종가이드! 사냥·전설무기·도술 6돌파 │ 2주 패치 대비",
    "channel": "오지조",
    "date": "2026-11-08T22:45+09:00",
-   "views": 18525,
+   "views": 18534,
    "official": false
   },
   {
@@ -748,5 +740,5 @@
    "official": false
   }
  ],
- "updated_at": "2026-11-11T00:06+09:00"
+ "updated_at": "2026-11-11T00:09+09:00"
 }

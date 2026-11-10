@@ -1,6 +1,30 @@
 {
  "notices": [
   {
+   "id": 1211375,
+   "board": "notice",
+   "title": "<30차> 비정상적인 게임 진행 관련 계정 제재 및 보호 조치 안내",
+   "date": "2026-11-09T19:01+09:00",
+   "tag": "제재",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1211375"
+  },
+  {
+   "id": 1211306,
+   "board": "notice",
+   "title": "11월 11일(수) 정기 점검 시 캐릭터명 선점 정보 삭제 예정 안내",
+   "date": "2026-11-09T18:29+09:00",
+   "tag": "점검",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1211306"
+  },
+  {
+   "id": 10859,
+   "board": "notice",
+   "title": "오류 및 개선사항 제보 통합 안내 [26/11/09 15:52 최신화]",
+   "date": "2026-11-09T15:52+09:00",
+   "tag": "안내",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=10859"
+  },
+  {
    "id": 1208855,
    "board": "notice",
    "title": "11월 8일(일) 차원 점령전 보상 지급 일정 및 악용 행위 조치 안내",
@@ -135,30 +159,6 @@
    "date": "2026-11-04T19:33+09:00",
    "tag": "안내",
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1181709"
-  },
-  {
-   "id": 10859,
-   "board": "notice",
-   "title": "오류 및 개선사항 제보 통합 안내 [26/11/05 12:30 최신화]",
-   "date": "2026-11-04T18:42+09:00",
-   "tag": "안내",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=10859"
-  },
-  {
-   "id": 1180529,
-   "board": "notice",
-   "title": "[내용추가] 11월 4일(수) PC 버전 업데이트 안내(Android(구글),iOS(애플) 추가)",
-   "date": "2026-11-04T17:10+09:00",
-   "tag": "안내",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1180529"
-  },
-  {
-   "id": 1179762,
-   "board": "notice",
-   "title": "전래동화 비경 밸런스 조정 사전 안내",
-   "date": "2026-11-04T15:23+09:00",
-   "tag": "안내",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1179762"
   },
   {
    "id": 1175960,
@@ -349,8 +349,8 @@
   {
    "id": 10859,
    "board": "notice",
-   "title": "오류 및 개선사항 제보 통합 안내 [26/11/05 12:30 최신화]",
-   "date": "2026-11-04T18:42+09:00",
+   "title": "오류 및 개선사항 제보 통합 안내 [26/11/09 15:52 최신화]",
+   "date": "2026-11-09T15:52+09:00",
    "tag": "안내",
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=10859"
   },
@@ -556,19 +556,19 @@
  ],
  "videos": [
   {
+   "id": "7vyq9owAUvU",
+   "title": "[도깨비의세계] 대세는 \"강타덱\" - 사냥, 비경, PVP 원클릭 프리셋",
+   "channel": "쵸튜브[쵸피]",
+   "date": "2026-11-10T08:00+09:00",
+   "views": null,
+   "official": false
+  },
+  {
    "id": "j2AqLMPZ4yE",
    "title": "[도깨비의세계] 43만투력 달성 다음 전설 뭘로갈지 고민중 [무소과금 꿀팁가이드]",
    "channel": "투즈TV",
    "date": "2026-11-09T19:58+09:00",
-   "views": 56935,
-   "official": false
-  },
-  {
-   "id": "7BSQGIvlp3U",
-   "title": "[도깨비의 세계] 스펙업안하고 분당 마리수 최대한 올리는 개꿀팁 [안보면 후회]",
-   "channel": "투즈TV",
-   "date": "2026-11-09T19:38+09:00",
-   "views": 37583,
+   "views": null,
    "official": false
   },
   {
@@ -576,7 +576,7 @@
    "title": "[도깨비의세계] 기동덱 이후로 사고친 몰이강타덱🔥누구나 가능한 광역 도술",
    "channel": "맛나는꼬꼬",
    "date": "2026-11-09T19:00+09:00",
-   "views": 15165,
+   "views": null,
    "official": false
   },
   {
@@ -584,7 +584,7 @@
    "title": "[도깨비의세계] 530K 몰이강타덱 분당 70마리 사냥중 기동덱 창시자",
    "channel": "맛나는꼬꼬",
    "date": "2026-11-09T15:35+09:00",
-   "views": 27099,
+   "views": null,
    "official": false
   },
   {
@@ -592,39 +592,7 @@
    "title": "도깨비 무과금 360k 20시간 돌면 몇 금전 나올까? ( Full 방치 )",
    "channel": "도모",
    "date": "2026-11-09T12:03+09:00",
-   "views": 24546,
-   "official": false
-  },
-  {
-   "id": "kF0felEPSNM",
-   "title": "싸우지 않아도 승리하는 차원 점령전 [도깨비의세계]",
-   "channel": "센터로드TV",
-   "date": "2026-11-09T09:27+09:00",
-   "views": 20401,
-   "official": false
-  },
-  {
-   "id": "E3VgX-qGnDg",
-   "title": "[도깨비의세계] 파멸 국민덱 원클릭 프리셋 - 사냥, 보스, PVP",
-   "channel": "쵸튜브[쵸피]",
-   "date": "2026-11-09T08:00+09:00",
-   "views": 44780,
-   "official": false
-  },
-  {
-   "id": "mxNn6NIJsNM",
-   "title": "차원점령전 잘 돌아감? [도깨비의세계]",
-   "channel": "센터로드TV",
-   "date": "2026-11-09T01:37+09:00",
-   "views": 18865,
-   "official": false
-  },
-  {
-   "id": "lr6uQ6-rqgw",
-   "title": "도깨비🔥무소과금 육성⭐30일 최종가이드! 사냥·전설무기·도술 6돌파 │ 2주 패치 대비",
-   "channel": "오지조",
-   "date": "2026-11-08T22:45+09:00",
-   "views": 17043,
+   "views": null,
    "official": false
   },
   {
@@ -632,7 +600,7 @@
    "title": "[도깨비의 세계]차원점령전은... ㅋ_ㅋ 3.6공 전설무기 40만투력 메테오6돌 전설가호 [무 소과금 꿀팁  정보 공유]  #도깨비 #슈퍼캣",
    "channel": "깨비야",
    "date": "2026-11-08T19:31+09:00",
-   "views": 41219,
+   "views": null,
    "official": false
   },
   {
@@ -640,7 +608,7 @@
    "title": "🛑도깨비의 세계🔥★ 점령전★ 이거 안하면 개손해? 공3.5 + 곧 대검강타6돌 ... 1발 남음  │ 드가자!",
    "channel": "오지조",
    "date": "2026-11-08T14:42+09:00",
-   "views": 5068,
+   "views": null,
    "official": false
   },
   {
@@ -648,15 +616,7 @@
    "title": "[도깨비의세계] 530K 몰이강타덱 사냥중 차원 점령전 존버중 기동덱 창시자",
    "channel": "맛나는꼬꼬",
    "date": "2026-11-08T14:37+09:00",
-   "views": 17355,
-   "official": false
-  },
-  {
-   "id": "WOM7DvCKgD4",
-   "title": "도깨비🔥차원점령전TIP 점수 빨리 채우고, 다른 거 하세요! │ 척살도술+100만",
-   "channel": "오지조",
-   "date": "2026-11-08T14:10+09:00",
-   "views": 17216,
+   "views": null,
    "official": false
   },
   {
@@ -664,7 +624,7 @@
    "title": "도깨비 무과금 전설 장비 2개 추가 - 허리띠 + 반지",
    "channel": "도모",
    "date": "2026-11-08T13:38+09:00",
-   "views": 24815,
+   "views": null,
    "official": false
   },
   {
@@ -672,15 +632,7 @@
    "title": "도깨비 무과금 도술 돌파 환급 얼마나 받게 될까? (feat. 기대값)",
    "channel": "도모",
    "date": "2026-11-08T12:05+09:00",
-   "views": 22110,
-   "official": false
-  },
-  {
-   "id": "TCE6hX9Xw6U",
-   "title": "[도깨비의세계] 무과금 39만 달성 - 성장 노하우 총정리 / 안보면 후회합니다",
-   "channel": "쵸튜브[쵸피]",
-   "date": "2026-11-08T08:59+09:00",
-   "views": 69392,
+   "views": null,
    "official": false
   },
   {
@@ -688,7 +640,7 @@
    "title": "차원점령전 오픈이 안되네? 뭐하는건지 [도깨비의세계]",
    "channel": "센터로드TV",
    "date": "2026-11-08T01:49+09:00",
-   "views": 24930,
+   "views": null,
    "official": false
   },
   {
@@ -696,7 +648,7 @@
    "title": "🛑도깨비의 세계🔥드디어!! 전설무기득  만들고 졸업조율 ㄱㄱ │ +절명50 → 대검강타4돌 완료",
    "channel": "오지조",
    "date": "2026-11-08T01:15+09:00",
-   "views": 5016,
+   "views": null,
    "official": false
   },
   {
@@ -704,7 +656,7 @@
    "title": "[도깨비의 세계]공격력메타  ㅋ_ㅋ ㅁ전설무기 39만투력 메테오6돌 전설가호 [무 소과금 꿀팁  정보 공유]  #도깨비 #슈퍼캣",
    "channel": "깨비야",
    "date": "2026-11-07T19:22+09:00",
-   "views": 52623,
+   "views": null,
    "official": false
   },
   {
@@ -712,7 +664,7 @@
    "title": "[도깨비의세계] 이강인덱 너프 먹고 만든 몰이강타덱⚠️제자리 사냥 설정법",
    "channel": "맛나는꼬꼬",
    "date": "2026-11-07T19:15+09:00",
-   "views": 32161,
+   "views": null,
    "official": false
   },
   {
@@ -720,15 +672,7 @@
    "title": "[도깨비의세계] 무한 강타 원펀맨 필드 자리가 이상한데? 기동덱 창시자",
    "channel": "맛나는꼬꼬",
    "date": "2026-11-07T17:33+09:00",
-   "views": 19728,
-   "official": false
-  },
-  {
-   "id": "hzEU3KVqwKg",
-   "title": "[도깨비의 세계] 전구간 투력별 파멸빌드 5가지 총정리",
-   "channel": "투즈TV",
-   "date": "2026-11-07T16:05+09:00",
-   "views": 72721,
+   "views": null,
    "official": false
   },
   {
@@ -736,7 +680,7 @@
    "title": "도깨비 무과금 산군 전설 방어구 포기한 이유 10가지",
    "channel": "도모",
    "date": "2026-11-07T12:42+09:00",
-   "views": 36475,
+   "views": null,
    "official": false
   },
   {
@@ -744,9 +688,65 @@
    "title": "도깨비 무과금 메테오 6돌 + 파멸 지팡이 공략 10가지 - 분당 ?? / 전강비 ??",
    "channel": "도모",
    "date": "2026-11-07T12:06+09:00",
-   "views": 13187,
+   "views": null,
+   "official": false
+  },
+  {
+   "id": "4c4d2vkd5Ok",
+   "title": "[도깨비의 세계]하루라도 조용 한 날이 없네ㅋ_ㅋ 전설무기 39만투력 전설가호 [무 소과금 꿀팁  정보 공유]  #도깨비 #슈퍼캣",
+   "channel": "깨비야",
+   "date": "2026-11-07T09:00+09:00",
+   "views": null,
+   "official": false
+  },
+  {
+   "id": "4JQF3msYn9w",
+   "title": "도깨비 무과금 긴급 생방송 총정리 8가지 - 강타, 도술 밸런스, 보상",
+   "channel": "도모",
+   "date": "2026-11-07T08:00+09:00",
+   "views": null,
+   "official": false
+  },
+  {
+   "id": "XYutRlG2RG0",
+   "title": "[도깨비의세계] 투력별 사냥터 효율 재조정 실험 / 쵸피 무이1",
+   "channel": "쵸튜브[쵸피]",
+   "date": "2026-11-07T08:00+09:00",
+   "views": null,
+   "official": false
+  },
+  {
+   "id": "Pzhh5ll9kOI",
+   "title": "[도깨비의세계] 그냥 공격력 몰빵 해야하나^^  [무소과금 정보공유방송]",
+   "channel": "투즈TV",
+   "date": "2026-11-07T08:00+09:00",
+   "views": null,
+   "official": false
+  },
+  {
+   "id": "6z6oCM8wgDY",
+   "title": "[도깨비의세계] 제자리 사냥 활용한 무한 강타 좀비덱🔴이렇게 쓴다고?",
+   "channel": "맛나는꼬꼬",
+   "date": "2026-11-07T08:00+09:00",
+   "views": null,
+   "official": false
+  },
+  {
+   "id": "s96mReVvkN8",
+   "title": "[도깨비의세계] 현재 난리난 무한 강타 원펀맨덱🔥멤버십 무과금 가능합니다",
+   "channel": "맛나는꼬꼬",
+   "date": "2026-11-07T08:00+09:00",
+   "views": null,
+   "official": false
+  },
+  {
+   "id": "6nvHg3LTX2o",
+   "title": "[도깨비의세계] 무한 강타 원펀맨 사냥중 전설 무기 제작 나이스 기동덱 창시자",
+   "channel": "맛나는꼬꼬",
+   "date": "2026-11-07T08:00+09:00",
+   "views": null,
    "official": false
   }
  ],
- "updated_at": "2026-11-10T07:58+09:00"
+ "updated_at": "2026-11-10T09:00+09:00"
 }

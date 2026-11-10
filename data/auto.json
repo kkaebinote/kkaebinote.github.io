@@ -1,6 +1,14 @@
 {
  "notices": [
   {
+   "id": 1212567,
+   "board": "notice",
+   "title": "11월 10일(화) 19:30 정기 라이브 방송 안내",
+   "date": "2026-11-10T11:00+09:00",
+   "tag": "방송",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1212567"
+  },
+  {
    "id": 1211375,
    "board": "notice",
    "title": "<30차> 비정상적인 게임 진행 관련 계정 제재 및 보호 조치 안내",
@@ -151,14 +159,6 @@
    "date": "2026-11-04T20:00+09:00",
    "tag": "제재",
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1181988"
-  },
-  {
-   "id": 1181709,
-   "board": "notice",
-   "title": "[내용추가] 11월 4일(수) 업데이트 이후 확인된 사항 안내",
-   "date": "2026-11-04T19:33+09:00",
-   "tag": "안내",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1181709"
   },
   {
    "id": 1175960,
@@ -323,28 +323,12 @@
  ],
  "pinned": [
   {
-   "id": 1208855,
+   "id": 1212567,
    "board": "notice",
-   "title": "11월 8일(일) 차원 점령전 보상 지급 일정 및 악용 행위 조치 안내",
-   "date": "2026-11-08T19:10+09:00",
-   "tag": "보상",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1208855"
-  },
-  {
-   "id": 1207833,
-   "board": "notice",
-   "title": "11월 8일(일) 차원 점령전 점수 획득 및 악용 행위 관련 안내",
-   "date": "2026-11-08T14:39+09:00",
-   "tag": "안내",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1207833"
-  },
-  {
-   "id": 1205472,
-   "board": "notice",
-   "title": "사냥터별 보상 감소 기준 추가 안내",
-   "date": "2026-11-07T22:00+09:00",
-   "tag": "보상",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1205472"
+   "title": "11월 10일(화) 19:30 정기 라이브 방송 안내",
+   "date": "2026-11-10T11:00+09:00",
+   "tag": "방송",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1212567"
   },
   {
    "id": 10859,
@@ -353,6 +337,22 @@
    "date": "2026-11-09T15:52+09:00",
    "tag": "안내",
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=10859"
+  },
+  {
+   "id": 1208855,
+   "board": "notice",
+   "title": "11월 8일(일) 차원 점령전 보상 지급 일정 및 악용 행위 조치 안내",
+   "date": "2026-11-08T19:10+09:00",
+   "tag": "보상",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1208855"
+  },
+  {
+   "id": 1205472,
+   "board": "notice",
+   "title": "사냥터별 보상 감소 기준 추가 안내",
+   "date": "2026-11-07T22:00+09:00",
+   "tag": "보상",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1205472"
   },
   {
    "id": 979147,
@@ -580,6 +580,30 @@
    "official": false
   },
   {
+   "id": "uHj3aRKltY8",
+   "title": "도깨비 무과금 360k 20시간 돌면 몇 금전 나올까? ( Full 방치 )",
+   "channel": "도모",
+   "date": "2026-11-09T12:00+09:00",
+   "views": null,
+   "official": false
+  },
+  {
+   "id": "XUiOtHbhzck",
+   "title": "도깨비 무과금 전설 장비 2개 추가 - 허리띠 + 반지",
+   "channel": "도모",
+   "date": "2026-11-09T11:00+09:00",
+   "views": null,
+   "official": false
+  },
+  {
+   "id": "-EGqLlmwXM8",
+   "title": "도깨비 무과금 도술 돌파 환급 얼마나 받게 될까? (feat. 기대값)",
+   "channel": "도모",
+   "date": "2026-11-09T11:00+09:00",
+   "views": null,
+   "official": false
+  },
+  {
    "id": "CJkQmfPOrhs",
    "title": "[도깨비의 세계]차원점령전은... ㅋ_ㅋ 3.6공 전설무기 40만투력 메테오6돌 전설가호 [무 소과금 꿀팁  정보 공유]  #도깨비 #슈퍼캣",
    "channel": "깨비야",
@@ -600,6 +624,22 @@
    "title": "[도깨비의세계] 530K 몰이강타덱 사냥중 차원 점령전 존버중 기동덱 창시자",
    "channel": "맛나는꼬꼬",
    "date": "2026-11-08T14:37+09:00",
+   "views": null,
+   "official": false
+  },
+  {
+   "id": "FVrSg1zfqJk",
+   "title": "도깨비 무과금 산군 전설 방어구 포기한 이유 10가지",
+   "channel": "도모",
+   "date": "2026-11-08T11:00+09:00",
+   "views": null,
+   "official": false
+  },
+  {
+   "id": "S_-MZW5qqpc",
+   "title": "도깨비 무과금 메테오 6돌 + 파멸 지팡이 공략 10가지 - 분당 ?? / 전강비 ??",
+   "channel": "도모",
+   "date": "2026-11-08T11:00+09:00",
    "views": null,
    "official": false
   },
@@ -692,61 +732,21 @@
    "official": false
   },
   {
-   "id": "YIiAadlIJlw",
-   "title": "[도깨비의세계👾] 긴급 LIVE 📢 [26.11.06]",
-   "channel": "도깨비의세계 공식",
-   "date": "2026-11-06T10:00+09:00",
-   "views": null,
-   "official": true
-  },
-  {
-   "id": "hORuNmR6W30",
-   "title": "[도깨비의세계] 어김없이 찾아온 소통 LIVE! 👾 [26.11.05]",
-   "channel": "도깨비의세계 공식",
-   "date": "2026-11-06T10:00+09:00",
-   "views": null,
-   "official": true
-  },
-  {
-   "id": "PjDF3pWyOQs",
-   "title": "[도깨비의세계] 무과금 캐릭터 결국 사고쳤습니다 - 전설무기 제작 / 쵸피 무이1",
-   "channel": "쵸튜브[쵸피]",
-   "date": "2026-11-06T10:00+09:00",
+   "id": "4JQF3msYn9w",
+   "title": "도깨비 무과금 긴급 생방송 총정리 8가지 - 강타, 도술 밸런스, 보상",
+   "channel": "도모",
+   "date": "2026-11-06T11:00+09:00",
    "views": null,
    "official": false
   },
   {
-   "id": "8UIi06-M_g4",
-   "title": "[도깨비의세계] 1시 긴급 공식방송 무슨일이야",
-   "channel": "투즈TV",
-   "date": "2026-11-06T10:00+09:00",
-   "views": null,
-   "official": false
-  },
-  {
-   "id": "H49k0lCuXfQ",
-   "title": "[도깨비의세계] 735K 이강인덱 사냥중 제자리 사냥 설정 꿀팁 기동덱 창시자",
-   "channel": "맛나는꼬꼬",
-   "date": "2026-11-06T10:00+09:00",
-   "views": null,
-   "official": false
-  },
-  {
-   "id": "4WnCsFJBN3Y",
-   "title": "[도깨비의 세계1시 라방 뭐냐   간달프덱 메테오6돌ㅋ_ㅋ 2300회피 37만투력 전설가호 [무 소과금 꿀팁  정보 공유]  #도깨비 #슈퍼캣",
-   "channel": "깨비야",
-   "date": "2026-11-06T10:00+09:00",
-   "views": null,
-   "official": false
-  },
-  {
-   "id": "CRwY3m96W0Y",
-   "title": "🛑도깨비의 세계🔥결정했다! 2주간 성장 목표·최종빌드 방향 6돌 1순위 + 전설무기제발 조상님 │ 꿀팁 공유 LIVE",
-   "channel": "오지조",
-   "date": "2026-11-06T10:00+09:00",
+   "id": "mEcnsg1-358",
+   "title": "도깨비 무과금 도술 강화 요령서 총정리! 얼마나 모아야 할까? (요혼석 3,000개 엽전 3,000만)",
+   "channel": "도모",
+   "date": "2026-11-06T11:00+09:00",
    "views": null,
    "official": false
   }
  ],
- "updated_at": "2026-11-10T10:23+09:00"
+ "updated_at": "2026-11-10T11:55+09:00"
 }

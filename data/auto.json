@@ -1,6 +1,22 @@
 {
  "notices": [
   {
+   "id": 1216680,
+   "board": "notice",
+   "title": "11월 12일(목) 일부 문제 현상 해결을 위한 Android(구글) 마켓 업데이트 안내",
+   "date": "2026-11-12T19:12+09:00",
+   "tag": "안내",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1216680"
+  },
+  {
+   "id": 1216667,
+   "board": "notice",
+   "title": "<33차> 비정상적인 게임 진행 관련 계정 제재 및 보호 조치 안내",
+   "date": "2026-11-12T18:50+09:00",
+   "tag": "제재",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1216667"
+  },
+  {
    "id": 1216066,
    "board": "notice",
    "title": "[내용수정] 11월 18일(수) 업데이트 관련 사전 안내",
@@ -11,7 +27,7 @@
   {
    "id": 10859,
    "board": "notice",
-   "title": "오류 및 개선사항 제보 통합 안내 [26/11/12 12:26 최신화]",
+   "title": "오류 및 개선사항 제보 통합 안내 [26/11/13 10:36 최신화]",
    "date": "2026-11-11T18:55+09:00",
    "tag": "안내",
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=10859"
@@ -177,22 +193,6 @@
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1205525"
   },
   {
-   "id": 1205472,
-   "board": "notice",
-   "title": "사냥터별 보상 감소 기준 추가 안내",
-   "date": "2026-11-07T22:00+09:00",
-   "tag": "보상",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1205472"
-  },
-  {
-   "id": 1204867,
-   "board": "notice",
-   "title": "비정상적인 게임 진행 관련 계정 제재 및 보호 조치 안내 <28차>",
-   "date": "2026-11-07T18:56+09:00",
-   "tag": "제재",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1204867"
-  },
-  {
    "id": 1175960,
    "board": "update",
    "title": "[내용수정] 11월 4일(수) 업데이트 안내",
@@ -333,7 +333,7 @@
   {
    "id": 10859,
    "board": "notice",
-   "title": "오류 및 개선사항 제보 통합 안내 [26/11/12 12:26 최신화]",
+   "title": "오류 및 개선사항 제보 통합 안내 [26/11/13 10:36 최신화]",
    "date": "2026-11-11T18:55+09:00",
    "tag": "안내",
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=10859"
@@ -501,6 +501,14 @@
   }
  ],
  "videos": [
+  {
+   "id": "ixg5HEodxR8",
+   "title": "[도깨비의세계] 530k 분당 100마리 달성 - 돌풍강격 6돌파도전!  / 쵸피 무이1",
+   "channel": "쵸튜브[쵸피]",
+   "date": "2026-11-13T14:00+09:00",
+   "views": null,
+   "official": false
+  },
   {
    "id": "oTLPkzqUkvM",
    "title": "[도깨비의세계] 전설무기 후 무조건 반지부터 만드세요 / 공격력vs치명타 종결실험 - 옵션 선택가이드까지",
@@ -684,15 +692,7 @@
    "date": "2026-11-10T10:00+09:00",
    "views": null,
    "official": false
-  },
-  {
-   "id": "CJkQmfPOrhs",
-   "title": "[도깨비의 세계]차원점령전은... ㅋ_ㅋ 3.6공 전설무기 40만투력 메테오6돌 전설가호 [무 소과금 꿀팁  정보 공유]  #도깨비 #슈퍼캣",
-   "channel": "깨비야",
-   "date": "2026-11-09T14:00+09:00",
-   "views": null,
-   "official": false
   }
  ],
- "updated_at": "2026-11-13T14:16+09:00"
+ "updated_at": "2026-11-13T15:35+09:00"
 }

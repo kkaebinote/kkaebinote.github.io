@@ -1,6 +1,14 @@
 {
  "notices": [
   {
+   "id": 1219112,
+   "board": "notice",
+   "title": "11월 17일(화) 19:30 정기 라이브 방송 안내",
+   "date": "2026-11-17T11:00+09:00",
+   "tag": "방송",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1219112"
+  },
+  {
    "id": 1218786,
    "board": "notice",
    "title": "<36차> 비정상적인 게임 진행 관련 계정 제재 및 보호 조치 안내",
@@ -185,14 +193,6 @@
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1208855"
   },
   {
-   "id": 1208840,
-   "board": "notice",
-   "title": "<29차> 비정상적인 게임 진행 관련 계정 제재 및 보호 조치 안내",
-   "date": "2026-11-08T19:02+09:00",
-   "tag": "제재",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1208840"
-  },
-  {
    "id": 1175960,
    "board": "update",
    "title": "[내용수정] 11월 4일(수) 업데이트 안내",
@@ -323,6 +323,14 @@
  ],
  "pinned": [
   {
+   "id": 1219112,
+   "board": "notice",
+   "title": "11월 17일(화) 19:30 정기 라이브 방송 안내",
+   "date": "2026-11-17T11:00+09:00",
+   "tag": "방송",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1219112"
+  },
+  {
    "id": 1216066,
    "board": "notice",
    "title": "[11/14 내용추가] 11월 18일(수) 업데이트 관련 사전 안내",
@@ -345,14 +353,6 @@
    "date": "2026-11-07T22:00+09:00",
    "tag": "보상",
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1205472"
-  },
-  {
-   "id": 979147,
-   "board": "notice",
-   "title": "2026 대한민국 게임대상 투표 안내",
-   "date": "2026-10-27T18:03+09:00",
-   "tag": "안내",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=979147"
   },
   {
    "id": 13991,
@@ -502,11 +502,19 @@
  ],
  "videos": [
   {
+   "id": "LRYLPhebK3c",
+   "title": "[도깨비의세계] 모든걸 걸고 마지막 도술,장비 돌파 도전 / 과연 결과는?",
+   "channel": "쵸튜브[쵸피]",
+   "date": "2026-11-17T10:31+09:00",
+   "views": 739,
+   "official": false
+  },
+  {
    "id": "ATR1lPcPeYs",
    "title": "[도깨비의세계] 영혼까지 모은 도술 6돌 도전+사고 쳤습니다! / 쵸피 무이1",
    "channel": "쵸튜브[쵸피]",
    "date": "2026-11-17T04:30+09:00",
-   "views": 31464,
+   "views": 31632,
    "official": false
   },
   {
@@ -514,7 +522,7 @@
    "title": "[도깨비의세계] 돌파 오늘 마지막인데 다 하셨죠??  [무소과금 꿀팁가이드]",
    "channel": "투즈TV",
    "date": "2026-11-16T22:41+09:00",
-   "views": 45379,
+   "views": 45595,
    "official": false
   },
   {
@@ -522,7 +530,7 @@
    "title": "🛑도깨비의 세계 장사 ㅈㄴ잘 🔥무기/도술 5,6돌? 알려드림 │패치후 메타 연구준비 제자리X",
    "channel": "오지조",
    "date": "2026-11-16T21:47+09:00",
-   "views": 2135,
+   "views": 2509,
    "official": false
   },
   {
@@ -530,7 +538,7 @@
    "title": "도깨비 무과금 업뎃 전 돌파를 무조건 해야 하는 이유 7가지",
    "channel": "도모",
    "date": "2026-11-16T18:13+09:00",
-   "views": 15179,
+   "views": 16033,
    "official": false
   },
   {
@@ -546,7 +554,7 @@
    "title": "[도깨비의 세계] 모든 컨텐츠 한번에! 실전프리셋 5가지 총정리+활용팁",
    "channel": "투즈TV",
    "date": "2026-11-16T15:54+09:00",
-   "views": 20852,
+   "views": 22806,
    "official": false
   },
   {
@@ -554,7 +562,7 @@
    "title": "[도깨비의세계] 24만 금전 들고온 😂절명만 찍은 시청자분",
    "channel": "쵸튜브[쵸피]",
    "date": "2026-11-16T15:50+09:00",
-   "views": 14501,
+   "views": 15248,
    "official": false
   },
   {
@@ -570,7 +578,7 @@
    "title": "[도깨비의세계] 무과금 전투력 44만 돌파 - 성장 노하우 및 6돌파 3개째 도전",
    "channel": "쵸튜브[쵸피]",
    "date": "2026-11-16T08:05+09:00",
-   "views": 23927,
+   "views": 24772,
    "official": false
   },
   {
@@ -578,7 +586,7 @@
    "title": "도깨비 무과금 다음 주 수요일 대비와 앞으로 계획 공략 10가지",
    "channel": "도모",
    "date": "2026-11-15T18:06+09:00",
-   "views": 34627,
+   "views": 35159,
    "official": false
   },
   {
@@ -586,7 +594,7 @@
    "title": "[도깨비의 세계] 제대로 사고친 몰이강타덱 상위버전🚨진짜 너무 사기다",
    "channel": "맛나는꼬꼬",
    "date": "2026-11-15T17:00+09:00",
-   "views": 27012,
+   "views": 27466,
    "official": false
   },
   {
@@ -618,7 +626,7 @@
    "title": "[도깨비의세계] 도술 돌파 우선순위 / 월요일 자정까지 필수 시청",
    "channel": "쵸튜브[쵸피]",
    "date": "2026-11-15T09:23+09:00",
-   "views": 48282,
+   "views": 48922,
    "official": false
   },
   {
@@ -626,7 +634,7 @@
    "title": "[도깨비의 세계]드디어 조화단 먹었다! ㅋ_ㅋ 3.9공 43만투력  [무 소과금 꿀팁  정보 공유]  #도깨비 #슈퍼캣",
    "channel": "깨비야",
    "date": "2026-11-14T19:06+09:00",
-   "views": 37224,
+   "views": 37230,
    "official": false
   },
   {
@@ -634,7 +642,7 @@
    "title": "도깨비 무과금 매주 전설 장비 2개 만들 수 있는 이유? (feat. 10만 금전)",
    "channel": "도모",
    "date": "2026-11-14T18:41+09:00",
-   "views": 29376,
+   "views": 29671,
    "official": false
   },
   {
@@ -658,7 +666,7 @@
    "title": "[도깨비의세계] 📢다음주에 사라집니다 - 도술돌파만큼 중요한 천요석 300개 제작",
    "channel": "쵸튜브[쵸피]",
    "date": "2026-11-14T07:58+09:00",
-   "views": 37315,
+   "views": 37426,
    "official": false
   },
   {
@@ -666,7 +674,7 @@
    "title": "[도깨비의 세계] D-4 모르면 핵손해 돌파페이백&환급 총정리",
    "channel": "투즈TV",
    "date": "2026-11-13T18:45+09:00",
-   "views": 46776,
+   "views": 47045,
    "official": false
   },
   {
@@ -682,17 +690,9 @@
    "title": "[도깨비의세계] 요혼석 vs 엽전 고민이다~  [무소과금 꿀팁가이드]",
    "channel": "투즈TV",
    "date": "2026-11-13T17:55+09:00",
-   "views": 25342,
-   "official": false
-  },
-  {
-   "id": "ojo3Rgj7Fig",
-   "title": "도깨비 무과금 사냥터 선택 종결?! 18분이면 끝?! (360K vs 490K vs 530K)",
-   "channel": "도모",
-   "date": "2026-11-13T16:39+09:00",
-   "views": 33135,
+   "views": 25349,
    "official": false
   }
  ],
- "updated_at": "2026-11-17T08:55+09:00"
+ "updated_at": "2026-11-17T11:10+09:00"
 }

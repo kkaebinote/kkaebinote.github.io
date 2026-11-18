@@ -1,6 +1,30 @@
 {
  "notices": [
   {
+   "id": 1220653,
+   "board": "notice",
+   "title": "도깨비의세계 크리에이터 프로그램 ‘묘롱단’ 모집 안내",
+   "date": "2026-11-18T18:20+09:00",
+   "tag": "안내",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1220653"
+  },
+  {
+   "id": 1220645,
+   "board": "notice",
+   "title": "2026 대한민국 게임대상 수상 기념 감사 선물 안내",
+   "date": "2026-11-18T18:02+09:00",
+   "tag": "안내",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1220645"
+  },
+  {
+   "id": 1220614,
+   "board": "notice",
+   "title": "도깨비의세계 G-STAR 2026 ‘츄와 함께하는 타바로 원정대’ 안내",
+   "date": "2026-11-18T17:30+09:00",
+   "tag": "안내",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1220614"
+  },
+  {
    "id": 1220459,
    "board": "notice",
    "title": "[내용추가] 도사 수행록 점수 및 일부 업적 달성 관련 안내",
@@ -169,36 +193,12 @@
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1216066"
   },
   {
-   "id": 1215856,
-   "board": "notice",
-   "title": "<32차> 비정상적인 게임 진행 관련 계정 제재 및 보호 조치 안내",
-   "date": "2026-11-11T18:50+09:00",
-   "tag": "제재",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1215856"
-  },
-  {
-   "id": 1215776,
-   "board": "notice",
-   "title": "의복 합성 신규 품목 추가 및 확률 고지 누락 관련 안내",
-   "date": "2026-11-11T18:11+09:00",
-   "tag": "확률",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1215776"
-  },
-  {
    "id": 1215527,
    "board": "event",
    "title": "CM해월이 준비한 1+1 특별 선물을 받아주세요! (~11/11 23:59)",
    "date": "2026-11-11T15:02+09:00",
    "tag": "이벤트",
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=event&id=1215527"
-  },
-  {
-   "id": 1214965,
-   "board": "notice",
-   "title": "11월 11일(수) 정기 점검 완료 및 보상 지급 안내",
-   "date": "2026-11-11T11:00+09:00",
-   "tag": "보상",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1214965"
   },
   {
    "id": 1214945,
@@ -323,6 +323,14 @@
  ],
  "pinned": [
   {
+   "id": 1220614,
+   "board": "notice",
+   "title": "도깨비의세계 G-STAR 2026 ‘츄와 함께하는 타바로 원정대’ 안내",
+   "date": "2026-11-18T17:30+09:00",
+   "tag": "안내",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1220614"
+  },
+  {
    "id": 1220459,
    "board": "notice",
    "title": "[내용추가] 도사 수행록 점수 및 일부 업적 달성 관련 안내",
@@ -347,20 +355,20 @@
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1220266"
   },
   {
-   "id": 1219477,
-   "board": "notice",
-   "title": "성장 컨설팅: 도사님의 고민을 들어드립니다. 방송 진행 안내",
-   "date": "2026-11-17T18:14+09:00",
-   "tag": "방송",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1219477"
-  },
-  {
    "id": 10859,
    "board": "notice",
    "title": "오류 및 개선사항 제보 통합 안내 [26/11/18 16:47 최신화]",
    "date": "2026-11-18T03:00+09:00",
    "tag": "안내",
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=10859"
+  },
+  {
+   "id": 1219477,
+   "board": "notice",
+   "title": "성장 컨설팅: 도사님의 고민을 들어드립니다. 방송 진행 안내",
+   "date": "2026-11-17T18:14+09:00",
+   "tag": "방송",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1219477"
   },
   {
    "id": 1205472,
@@ -503,11 +511,35 @@
  ],
  "videos": [
   {
+   "id": "jjIzGuhvXiw",
+   "title": "[도깨비의세계] 패치후 도술 티어표 공개  - 최종덱까지 / 용맹6돌, 황천6돌등 모든 도술 실험완료",
+   "channel": "쵸튜브[쵸피]",
+   "date": "2026-11-18T17:59+09:00",
+   "views": 4177,
+   "official": false
+  },
+  {
+   "id": "GQwWNYsy5AY",
+   "title": "도깨비 무과금 인증 영상 - 구글 결재 + 페이코 + 아이템 매니아 + 아이템 베이 + 바로템 결재 내역",
+   "channel": "도모",
+   "date": "2026-11-18T17:10+09:00",
+   "views": 984,
+   "official": false
+  },
+  {
+   "id": "jfozdLs9Aws",
+   "title": "도깨비🔥패치적용, 최신사냥 빌드│ 환상술+용맹의기운⭐무소과금 강화·돌파 1순위",
+   "channel": "오지조",
+   "date": "2026-11-18T17:06+09:00",
+   "views": 1182,
+   "official": false
+  },
+  {
    "id": "-7mYutFu7LQ",
    "title": "🛑도깨비의 세계🔥 강타 버리고, 파멸 메테오6+@ NEW 최강메타찾습니다. │대환장이라고? ㅋㅋ",
    "channel": "오지조",
    "date": "2026-11-18T16:06+09:00",
-   "views": 2919,
+   "views": 3546,
    "official": false
   },
   {
@@ -515,7 +547,7 @@
    "title": "[도깨비의 세계] 패치후 반드시 해야하는것&사야하는것 총정리 [11.18 업데이트 상세리뷰]",
    "channel": "투즈TV",
    "date": "2026-11-18T15:31+09:00",
-   "views": 3297,
+   "views": 11633,
    "official": false
   },
   {
@@ -523,7 +555,7 @@
    "title": "[도깨비의세계] 📢중요 - 업뎃후 도술 대격변 리뷰 / 도술 49강, 신규도술, 초기화, 교체등",
    "channel": "쵸튜브[쵸피]",
    "date": "2026-11-18T14:21+09:00",
-   "views": 7355,
+   "views": 15176,
    "official": false
   },
   {
@@ -531,7 +563,7 @@
    "title": "도깨비 무과금 업뎃 후 꼭 필수 13가지 공략 - 주술 신식 덱",
    "channel": "도모",
    "date": "2026-11-18T14:20+09:00",
-   "views": 6833,
+   "views": 13176,
    "official": false
   },
   {
@@ -539,7 +571,7 @@
    "title": "[도깨비의세계] 1티어 빌드찾기 가즈아 [무소과금 꿀팁가이드]",
    "channel": "투즈TV",
    "date": "2026-11-18T10:56+09:00",
-   "views": 49892,
+   "views": 65294,
    "official": false
   },
   {
@@ -547,15 +579,15 @@
    "title": "[도깨비의 세계]파멸이 미래다.. 3시이후 컨설팅! ㅋ_ㅋ 4.3공 47만투력  [무 소과금 꿀팁  정보 공유]  #도깨비 #슈퍼캣",
    "channel": "깨비야",
    "date": "2026-11-18T10:55+09:00",
-   "views": 11010,
+   "views": 19364,
    "official": false
   },
   {
    "id": "wcQcDh_gmG8",
-   "title": "[도깨비의세계] 대격변 업데이트 리뷰 - 과연 최고의 도술 조합은? / 쵸피 무이1",
+   "title": "[도깨비의세계] 도술파악 완료 - 시청자 컨설팅 갑니다 - 치킨 이벤트까지 / 쵸피 무이1",
    "channel": "쵸튜브[쵸피]",
    "date": "2026-11-18T09:32+09:00",
-   "views": 78504,
+   "views": 93868,
    "official": false
   },
   {
@@ -571,7 +603,7 @@
    "title": "[도깨비의 세계] 사냥용 스킬트리 대격변 합니다 / 11.18 업데이트 미리보기",
    "channel": "투즈TV",
    "date": "2026-11-17T22:59+09:00",
-   "views": 47655,
+   "views": 49993,
    "official": false
   },
   {
@@ -579,7 +611,7 @@
    "title": "[도깨비의세계] 🔥파격적인 도술 대격변 예고 / 교체 전면 무료 - 11.17 공식 라방 정리",
    "channel": "쵸튜브[쵸피]",
    "date": "2026-11-17T21:55+09:00",
-   "views": 55488,
+   "views": 57263,
    "official": false
   },
   {
@@ -587,7 +619,7 @@
    "title": "[도깨비의세계] 7시반 공식방송 / 업데이트 체크리스트 4가지 [무소과금 꿀팁가이드]",
    "channel": "투즈TV",
    "date": "2026-11-17T21:45+09:00",
-   "views": 47451,
+   "views": 47493,
    "official": false
   },
   {
@@ -595,7 +627,7 @@
    "title": "도깨비🔥무소과금 강타 위기? 꿀도술 다시 찾아야 한다!⭐ 패치라이브 핵심",
    "channel": "오지조",
    "date": "2026-11-17T21:32+09:00",
-   "views": 5060,
+   "views": 5132,
    "official": false
   },
   {
@@ -603,7 +635,7 @@
    "title": "[도깨비의 세계]7시30분 공식방송 내일 환급 달달하겠다 ㅋ_ㅋ 4.3공 47만투력  [무 소과금 꿀팁  정보 공유]  #도깨비 #슈퍼캣",
    "channel": "깨비야",
    "date": "2026-11-17T21:27+09:00",
-   "views": 35976,
+   "views": 36028,
    "official": false
   },
   {
@@ -611,7 +643,7 @@
    "title": "도깨비 무과금 생방송 요약 12가지 천장 공개 + 도술은 이제 끝! 무기 돌파가 핵심이다!",
    "channel": "도모",
    "date": "2026-11-17T20:58+09:00",
-   "views": 35668,
+   "views": 36132,
    "official": false
   },
   {
@@ -619,7 +651,7 @@
    "title": "도깨비의세계 LIVE 👾 [26.11.17]",
    "channel": "도깨비의세계 공식",
    "date": "2026-11-17T20:39+09:00",
-   "views": 69295,
+   "views": 69492,
    "official": true
   },
   {
@@ -643,7 +675,7 @@
    "title": "[도깨비의세계] 영혼까지 모은 도술 6돌 도전+사고 쳤습니다! / 쵸피 무이1",
    "channel": "쵸튜브[쵸피]",
    "date": "2026-11-17T04:30+09:00",
-   "views": 32222,
+   "views": 32226,
    "official": false
   },
   {
@@ -651,7 +683,7 @@
    "title": "[도깨비의세계] 돌파 오늘 마지막인데 다 하셨죠??  [무소과금 꿀팁가이드]",
    "channel": "투즈TV",
    "date": "2026-11-16T22:41+09:00",
-   "views": 46577,
+   "views": 46582,
    "official": false
   },
   {
@@ -667,33 +699,9 @@
    "title": "[도깨비의세계] 떡상 빌드 530K 몰이강타덱 상위버전 이거 사기다 기동덱 창시자",
    "channel": "맛나는꼬꼬",
    "date": "2026-11-16T16:03+09:00",
-   "views": 14741,
-   "official": false
-  },
-  {
-   "id": "-aSWLAHghAM",
-   "title": "[도깨비의 세계] 모든 컨텐츠 한번에! 실전프리셋 5가지 총정리+활용팁",
-   "channel": "투즈TV",
-   "date": "2026-11-16T15:54+09:00",
-   "views": 30230,
-   "official": false
-  },
-  {
-   "id": "DW07D68XVxs",
-   "title": "[도깨비의세계] 24만 금전 들고온 😂절명만 찍은 시청자분",
-   "channel": "쵸튜브[쵸피]",
-   "date": "2026-11-16T15:50+09:00",
-   "views": 18871,
-   "official": false
-  },
-  {
-   "id": "b3vLubW9znY",
-   "title": "[도깨비의세계] 무과금 전투력 44만 돌파 - 성장 노하우 및 6돌파 3개째 도전",
-   "channel": "쵸튜브[쵸피]",
-   "date": "2026-11-16T08:05+09:00",
-   "views": 31214,
+   "views": 14742,
    "official": false
   }
  ],
- "updated_at": "2026-11-18T17:04+09:00"
+ "updated_at": "2026-11-18T19:01+09:00"
 }

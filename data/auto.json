@@ -1,6 +1,22 @@
 {
  "notices": [
   {
+   "id": 1221766,
+   "board": "notice",
+   "title": "<38차> 비정상적인 게임 진행 관련 계정 제재 및 보호 조치 안내",
+   "date": "2026-11-19T17:21+09:00",
+   "tag": "제재",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1221766"
+  },
+  {
+   "id": 1221694,
+   "board": "notice",
+   "title": "사냥터별 보상 감소 기준 상세 안내",
+   "date": "2026-11-19T15:10+09:00",
+   "tag": "보상",
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1221694"
+  },
+  {
    "id": 1221403,
    "board": "notice",
    "title": "11월 19일(목) 임시 점검 완료 및 보상 지급 안내",
@@ -177,22 +193,6 @@
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1218223"
   },
   {
-   "id": 1217472,
-   "board": "notice",
-   "title": "11월 13일(금) 일부 문제 현상 해결을 위한 Android(구글) 마켓 업데이트 안내",
-   "date": "2026-11-13T22:01+09:00",
-   "tag": "안내",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1217472"
-  },
-  {
-   "id": 1217373,
-   "board": "notice",
-   "title": "<34차> 비정상적인 게임 진행 관련 계정 제재 및 보호 조치 안내",
-   "date": "2026-11-13T18:50+09:00",
-   "tag": "제재",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1217373"
-  },
-  {
    "id": 1215527,
    "board": "event",
    "title": "CM해월이 준비한 1+1 특별 선물을 받아주세요! (~11/11 23:59)",
@@ -323,12 +323,12 @@
  ],
  "pinned": [
   {
-   "id": 1221403,
+   "id": 1221694,
    "board": "notice",
-   "title": "11월 19일(목) 임시 점검 완료 및 보상 지급 안내",
-   "date": "2026-11-19T10:01+09:00",
+   "title": "사냥터별 보상 감소 기준 상세 안내",
+   "date": "2026-11-19T15:10+09:00",
    "tag": "보상",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1221403"
+   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1221694"
   },
   {
    "id": 1220732,
@@ -347,28 +347,12 @@
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1220614"
   },
   {
-   "id": 1220321,
-   "board": "notice",
-   "title": "수험생 도사님의 빛나는 내일을 응원합니다.",
-   "date": "2026-11-18T11:50+09:00",
-   "tag": "안내",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1220321"
-  },
-  {
    "id": 10859,
    "board": "notice",
    "title": "오류 및 개선사항 제보 통합 안내 [26/11/18 16:47 최신화]",
    "date": "2026-11-18T03:00+09:00",
    "tag": "안내",
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=10859"
-  },
-  {
-   "id": 1205472,
-   "board": "notice",
-   "title": "사냥터별 보상 감소 기준 추가 안내",
-   "date": "2026-11-07T22:00+09:00",
-   "tag": "보상",
-   "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=notice&id=1205472"
   },
   {
    "id": 13991,
@@ -507,7 +491,7 @@
    "title": "[도깨비의세계] 88마리 빌드 쓰는중... 단일덱은 뭐가 최고일까? [무소과금 꿀팁가이드]",
    "channel": "투즈TV",
    "date": "2026-11-19T23:39+09:00",
-   "views": 50209,
+   "views": 50435,
    "official": false
   },
   {
@@ -515,7 +499,7 @@
    "title": "[도깨비의 세계]파멸이대세네  무기5돌파 ㅋ_ㅋ 4.5공 50만투력  [무 소과금 꿀팁  정보 공유]  #도깨비 #슈퍼캣",
    "channel": "깨비야",
    "date": "2026-11-19T22:23+09:00",
-   "views": 27389,
+   "views": 27467,
    "official": false
   },
   {
@@ -523,7 +507,7 @@
    "title": "[도깨비의세계] 30~40만 투력 기준, 환상술vs용맹의기운 중 뭘 배워야 할까?🔰특별도술 가이드[feat.용파덱]",
    "channel": "깨비야",
    "date": "2026-11-19T22:22+09:00",
-   "views": 22615,
+   "views": 27041,
    "official": false
   },
   {
@@ -531,7 +515,7 @@
    "title": "[도깨비의 세계] 패치후 보스최강 단일빌드 4가지 추천 (6돌파 덱포함)",
    "channel": "투즈TV",
    "date": "2026-11-19T21:31+09:00",
-   "views": 23688,
+   "views": 26136,
    "official": false
   },
   {
@@ -539,7 +523,7 @@
    "title": "🛑도깨비의 세계🔥530K 85마리사냥중, 현재 가장 갓성비인기덱 +용맹추가 ㄷㄷ 미쳣네?",
    "channel": "오지조",
    "date": "2026-11-19T20:52+09:00",
-   "views": 10189,
+   "views": 10240,
    "official": false
   },
   {
@@ -555,7 +539,7 @@
    "title": "[도깨비의세계] 사냥도술 선택 완료 이제 단일도술 무엇이 좋을까요? 수험생분들 화이팅입니다!  / 쵸피 무이1",
    "channel": "쵸튜브[쵸피]",
    "date": "2026-11-19T18:20+09:00",
-   "views": 86314,
+   "views": 86393,
    "official": false
   },
   {
@@ -563,7 +547,7 @@
    "title": "[도깨비의세계] 패치후 단일 최강 DPS도술덱 / 심마의 시련, 레이드, 사냥 공용",
    "channel": "쵸튜브[쵸피]",
    "date": "2026-11-19T15:50+09:00",
-   "views": 36621,
+   "views": 37630,
    "official": false
   },
   {
@@ -571,7 +555,7 @@
    "title": "도깨비 무과금 주파덱 업글버전 490K 85마리 - 조화단 득템!!",
    "channel": "도모",
    "date": "2026-11-19T14:03+09:00",
-   "views": 25792,
+   "views": 26401,
    "official": false
   },
   {
@@ -579,7 +563,7 @@
    "title": "[도깨비의세계] 강타 몰빵에서 파멸덱으로 넘어왔다 도술 연구소 기동덱 창시자",
    "channel": "맛나는꼬꼬",
    "date": "2026-11-19T13:41+09:00",
-   "views": 16545,
+   "views": 16566,
    "official": false
   },
   {
@@ -587,7 +571,7 @@
    "title": "도깨비🔥무과금 갓성비덱 대파멸시대 환상술❌ 용맹의기운❌ │ALL파멸 몰빵 이게 된다?",
    "channel": "오지조",
    "date": "2026-11-19T06:43+09:00",
-   "views": 7000,
+   "views": 7131,
    "official": false
   },
   {
@@ -595,7 +579,7 @@
    "title": "[도깨비의세계] 끝판왕 무과금 종결덱 - 가성비 최고 / 무기는 무조건 지팡이로",
    "channel": "쵸튜브[쵸피]",
    "date": "2026-11-19T02:06+09:00",
-   "views": 46097,
+   "views": 46729,
    "official": false
   },
   {
@@ -603,7 +587,7 @@
    "title": "[도깨비의 세계] 12시간 실험끝! 무과금 추천빌드 3가지 + 전설무기 추천",
    "channel": "투즈TV",
    "date": "2026-11-19T00:43+09:00",
-   "views": 60940,
+   "views": 61436,
    "official": false
   },
   {
@@ -611,7 +595,7 @@
    "title": "[도깨비의세계] 1티어 빌드찾기 가즈아 [무소과금 꿀팁가이드]",
    "channel": "투즈TV",
    "date": "2026-11-18T23:31+09:00",
-   "views": 110018,
+   "views": 110051,
    "official": false
   },
   {
@@ -619,7 +603,7 @@
    "title": "[도깨비의세계] 도술파악 완료 - 시청자 컨설팅 갑니다 - 치킨 이벤트까지 / 쵸피 무이1",
    "channel": "쵸튜브[쵸피]",
    "date": "2026-11-18T21:59+09:00",
-   "views": 126649,
+   "views": 126651,
    "official": false
   },
   {
@@ -627,7 +611,7 @@
    "title": "[도깨비의 세계]파멸이 미래다.. 3시이후 컨설팅! ㅋ_ㅋ 4.3공 47만투력  [무 소과금 꿀팁  정보 공유]  #도깨비 #슈퍼캣",
    "channel": "깨비야",
    "date": "2026-11-18T21:56+09:00",
-   "views": 35677,
+   "views": 35695,
    "official": false
   },
   {
@@ -635,7 +619,7 @@
    "title": "도깨비 무과금 게임대상 우편?! + 도모 주파덱 6시간 40분 결과?",
    "channel": "도모",
    "date": "2026-11-18T20:25+09:00",
-   "views": 19710,
+   "views": 19783,
    "official": false
   },
   {
@@ -643,7 +627,7 @@
    "title": "[도깨비의 세계] 신규 주술스킬 '황천의부름' 리뷰 + 추천덱",
    "channel": "투즈TV",
    "date": "2026-11-18T19:49+09:00",
-   "views": 10009,
+   "views": 10154,
    "official": false
   },
   {
@@ -651,7 +635,7 @@
    "title": "[도깨비의세계] 장비 재조율 옵션 가이드 / 효율 2배상승",
    "channel": "쵸튜브[쵸피]",
    "date": "2026-11-18T19:48+09:00",
-   "views": 23532,
+   "views": 23766,
    "official": false
   },
   {
@@ -659,7 +643,7 @@
    "title": "[도깨비의세계] 패치후 도술 티어표 공개  - 최종덱까지 / 용맹6돌, 황천6돌등 모든 도술 실험완료",
    "channel": "쵸튜브[쵸피]",
    "date": "2026-11-18T17:59+09:00",
-   "views": 85379,
+   "views": 85793,
    "official": false
   },
   {
@@ -667,7 +651,7 @@
    "title": "도깨비 무과금 인증 영상 - 구글 + 페이코 + 아이템 매니아 + 아이템 베이 + 바로템 결제 내역",
    "channel": "도모",
    "date": "2026-11-18T17:10+09:00",
-   "views": 8646,
+   "views": 8701,
    "official": false
   },
   {
@@ -675,7 +659,7 @@
    "title": "도깨비🔥패치적용, 최신사냥 빌드│ 환상술+용맹의기운⭐무소과금 강화·돌파 1순위",
    "channel": "오지조",
    "date": "2026-11-18T17:06+09:00",
-   "views": 22395,
+   "views": 22501,
    "official": false
   },
   {
@@ -683,7 +667,7 @@
    "title": "🛑도깨비의 세계🔥 강타 버리고, 파멸 메테오6+@ NEW 최강메타찾습니다. │대환장이라고? ㅋㅋ",
    "channel": "오지조",
    "date": "2026-11-18T16:06+09:00",
-   "views": 6793,
+   "views": 6804,
    "official": false
   },
   {
@@ -691,9 +675,9 @@
    "title": "[도깨비의 세계] 패치후 반드시 해야하는것&사야하는것 총정리 [11.18 업데이트 상세리뷰]",
    "channel": "투즈TV",
    "date": "2026-11-18T15:31+09:00",
-   "views": 46627,
+   "views": 47004,
    "official": false
   }
  ],
- "updated_at": "2026-11-20T05:44+09:00"
+ "updated_at": "2026-11-20T08:58+09:00"
 }

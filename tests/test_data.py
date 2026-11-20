@@ -14,7 +14,10 @@ class ManualSchedule(unittest.TestCase):
         for g in m.get("guild_schedule", []):
             with self.subTest(g=g.get("name")):
                 self.assertTrue(g.get("name"))
-                self.assertIn(g.get("wday"), range(7))
+                days = g.get("wdays", [g.get("wday")])
+                self.assertTrue(days)
+                for w in days:
+                    self.assertIn(w, range(7))
                 self.assertRegex(g.get("time", ""), HHMM)
                 if "dur" in g:
                     self.assertGreater(g["dur"], 0)
@@ -79,6 +82,28 @@ class PatchBrief(unittest.TestCase):
             for t in d[k].get("top", []):
                 with self.subTest(mode=k, style=t["style"]):
                     self.assertIn(t["ult"], t["order"])
+
+
+class Guild(unittest.TestCase):
+    def test_guild(self):
+        g = json.loads((DATA / "guild.json").read_text(encoding="utf-8"))
+        for l in g.get("links", []):
+            self.assertTrue(l["url"].startswith("https://"))
+        for j in g.get("join", []):
+            if "link" in j:
+                self.assertLess(j["link"], len(g["links"]))
+        c = g["contribution"]
+        self.assertIn(c["deadline"]["wday"], range(7))
+        self.assertRegex(c["deadline"]["time"], HHMM)
+        ids = [i["id"] for i in c["items"]]
+        self.assertEqual(len(ids), len(set(ids)))
+        for i in c["items"]:
+            self.assertIn(i["kind"], ("once", "mode", "count"))
+            if i["kind"] == "mode":
+                self.assertEqual(i["modes"][0][1], 0, "첫 선택지는 0점(안 함)")
+        sg = g.get("server_group")
+        if sg:
+            self.assertIn(g["server"], sg["servers"])
 
 
 if __name__ == "__main__":

@@ -316,6 +316,48 @@ details.pentry[open] .pcnt svg{transform:rotate(180deg)}
  .sidelinks a small{display:none}
  .ext{display:none}
 }
+/* 이번 주 전투 일정 */
+.gslist{list-style:none;margin:0;padding:0}
+.gslist li{display:flex;align-items:center;flex-wrap:wrap;gap:4px 12px;padding:9px 0;border-top:1px solid var(--line)}
+.gslist li:first-child{border-top:0}
+.gslist .gsname{flex:1;min-width:160px;font-weight:700}
+.gslist .gsname small{display:block;font-weight:400;color:var(--ink3);font-size:12px}
+.gslist .gswhen{color:var(--ink2);font-size:13px;white-space:nowrap}
+.gslist .gsleft{font-family:var(--f-mono);font-size:13px;min-width:92px;text-align:right}
+.gslist li.live .gsleft{color:var(--vermil);font-weight:700}
+.gslist li.soon .gsleft{color:var(--gold);font-weight:700}
+/* 최신 패치 한눈에 */
+.pb-sec{margin-top:18px}
+.pb-sec h3{margin:0 0 8px}
+.dmg{display:grid;grid-template-columns:minmax(84px,max-content) 1fr;gap:3px 10px;align-items:center;font-size:13px}
+.dmg .dn{text-align:right;white-space:nowrap}
+.dmg .dn small{color:var(--ink3);margin-left:4px;font-size:11px}
+.dmg .db{position:relative;height:20px;background:linear-gradient(var(--line),var(--line)) center/1px 100% no-repeat}
+.dmg .db i{position:absolute;top:3px;bottom:3px;border-radius:3px}
+.dmg .db i.up{left:50%;background:var(--jade)}
+.dmg .db i.dn2{right:50%;background:var(--vermil)}
+.dmg .db b{position:absolute;top:1px;font-family:var(--f-mono);font-size:12px;font-weight:600}
+.dmg .row{display:contents;cursor:default}
+.dmg .row[title]:hover .dn{color:var(--sky)}
+.dscale{display:flex;justify-content:space-between;font-size:11px;color:var(--ink3);font-family:var(--f-mono)}
+.pb-list{margin:10px 0 0;padding-left:18px;font-size:13.5px;color:var(--ink2)}
+.pb-list li{margin:3px 0}
+.zt{width:100%;font-size:13.5px;border-collapse:collapse}
+.zt th,.zt td{padding:6px 8px;border-top:1px solid var(--line);text-align:left}
+.zt td.n{text-align:right;font-family:var(--f-mono)}
+.zt tr.ok td{background:var(--jade-soft)}
+.zt tr.near td{background:var(--gold-soft)}
+.zpow{display:flex;gap:8px;align-items:center;margin:0 0 8px;flex-wrap:wrap}
+.zpow input{width:140px}
+.tl{display:flex;height:40px;border-radius:8px;overflow:hidden;border:1px solid var(--line)}
+.tl div{display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:12px;line-height:1.15;min-width:0}
+.tl .prep{background:var(--sky-soft);color:var(--sky)}
+.tl .fight{background:var(--vermil-soft);color:var(--vermil);font-weight:700}
+.tl .gap{background:var(--sunk)}
+.tl small{font-weight:400;font-size:11px}
+.tlx{position:relative;height:16px;font-size:11px;color:var(--ink3);font-family:var(--f-mono);margin-top:3px}
+.tlx span{position:absolute;transform:translateX(-50%);white-space:nowrap}
+.tlx span:first-child{transform:none}.tlx span:last-child{transform:translateX(-100%)}
 </style>
 </head>
 <body>
@@ -386,6 +428,11 @@ el.querySelector('.enter').focus();})();
     <h2 id="tips-title">할 일</h2>
     <div class="tcards" id="tips"></div>
   </div>
+  <div class="card hidden" id="gs-card">
+    <p class="eyebrow">매주 반복 · 한국 시간 · 가까운 순</p>
+    <h2>이번 주 전투 일정</h2>
+    <ul class="gslist" id="gslist"></ul>
+  </div>
   <div class="card">
     <div class="thead"><div><p class="eyebrow">이벤트 마감 · 쿠폰 만료 · 기한 있는 보상</p><h2 style="margin:0">놓치면 안 되는 일정</h2></div>
       <span class="upd" id="upd"><i></i><span>불러오는 중…</span></span></div>
@@ -401,6 +448,29 @@ el.querySelector('.enter').focus();})();
 
 <!-- ============ 패치노트 ============ -->
 <section id="tab-patch" class="hidden">
+  <div class="card hidden" id="pb-card">
+    <p class="eyebrow" id="pb-eyebrow">최신 정기 업데이트 · 공식 수치</p>
+    <h2 id="pb-title">한눈에 보기</h2>
+    <div class="pb-sec">
+      <h3>도술 피해량 변화</h3>
+      <p class="muted" style="margin:-4px 0 10px;font-size:12.5px">≈ 는 공지에 '약'으로 표기된 값, PvE 는 PvP 피해량 그대로. 도술에 마우스를 올리면 추가 변경 사항이 보여요.</p>
+      <div class="dmg" id="pb-dmg"></div>
+      <ul class="pb-list" id="pb-other"></ul>
+    </div>
+    <div class="pb-sec" id="pb-zsec">
+      <h3 id="pb-ztitle"></h3>
+      <div class="zpow"><label for="pb-pow" style="margin:0">내 전투력</label><input id="pb-pow" type="number" min="0" step="1000" placeholder="예: 320000"><span class="muted" id="pb-zhint" style="font-size:12.5px"></span></div>
+      <div style="overflow-x:auto"><table class="zt" id="pb-zones"></table></div>
+      <p class="muted" id="pb-znote" style="margin:8px 0 0;font-size:12.5px"></p>
+    </div>
+    <div class="pb-sec" id="pb-tsec">
+      <h3 id="pb-ttitle"></h3>
+      <div class="tl" id="pb-tl"></div>
+      <div class="tlx" id="pb-tlx"></div>
+      <p class="muted" id="pb-tnote" style="margin:8px 0 0;font-size:12.5px"></p>
+    </div>
+    <p class="muted" id="pb-src" style="margin:14px 0 0;font-size:12.5px"></p>
+  </div>
   <div class="card">
     <p class="eyebrow">타임라인 · 최신 순 · 공식 공지 요약</p>
     <h2>정식 오픈 이후 변경 사항</h2>
@@ -585,7 +655,7 @@ function chips(el,list,cur,on){
    data/manual.json : 사람이 고치는 것 (운영자 메모, 수동 일정, 숙제 기본값) */
 let AUTO={notices:[],pinned:[],coupons:[],events:[],videos:[],maintenance:null};
 let MANUAL={tips:[],events:[],todo_defaults:{daily:[],weekly:[]}};
-let TIMELINE={entries:[]}, EQUIP=null;
+let TIMELINE={entries:[]}, EQUIP=null, PATCH=null;
 async function loadJSON(path){
   const r=await fetch(path+'?t='+Math.floor(Date.now()/6e4),{cache:'no-store'});
   if(!r.ok) throw new Error(path+' '+r.status);
@@ -858,6 +928,7 @@ function tick(){
       :`${fmtDate(m.start)} 예상 (매주 수요일, 공지 전 추정치)`;
   }
   $('h-reset').textContent=left(lastDaily(now).getTime()+864e5-now).replace(/^0일 /,'');
+  renderGS(now.getTime());
   document.querySelectorAll('.dleft[data-t]').forEach(el=>{const ms=+el.dataset.t-now;if(ms>0)el.textContent=el.dataset.p+left(ms);});
   const dk=lastDaily(now).getTime();
   if(dk!==lastDKey){lastDKey=dk;renderTodos();renderEvents();renderCoupons();}
@@ -870,6 +941,72 @@ function setStatus(){
   u.className='upd'+(stale?' stale':'');
   u.lastElementChild.textContent=`자동 갱신 · ${ago(t)}`;
   u.title=`마지막 데이터 변경 ${fmtDate(t)}`;
+}
+
+/* ================= 이번 주 전투 일정 (manual.json guild_schedule) ================= */
+// 다음 발생 시각: 이번 주 해당 요일·시각, (진행 시간까지) 지났으면 다음 주
+function gsNext(g,now){
+  const [h,m]=g.time.split(':').map(Number),dur=(g.dur||0)*6e4;
+  const d=new Date(now);d.setHours(h,m,0,0);d.setDate(d.getDate()+((g.wday-d.getDay()+7)%7));
+  if(d.getTime()+dur<=now) d.setDate(d.getDate()+7);
+  return {st:d,live:d<=now};
+}
+function renderGS(now=Date.now()){
+  const list=(MANUAL.guild_schedule||[]).filter(g=>g&&g.name&&/^\d{1,2}:\d{2}$/.test(g.time)&&g.wday>=0&&g.wday<=6);
+  $('gs-card').classList.toggle('hidden',!list.length);
+  if(!list.length) return;
+  const rows=list.map(g=>({g,...gsNext(g,now)})).sort((a,b)=>a.st-b.st);
+  $('gslist').innerHTML=rows.map(({g,st,live})=>{
+    const ms=st-now,cls=live?'live':ms<3*36e5?'soon':'';
+    return `<li class="${cls}"><span class="gsname">${esc(g.name)}${g.note?`<small>${esc(g.note)}</small>`:''}</span>
+      <span class="gswhen">${WD[g.wday]} ${esc(g.time)}${g.dur?' · '+g.dur+'분':''}</span>
+      <span class="gsleft">${live?'진행 중':left(ms)}</span></li>`;}).join('');
+}
+
+/* ================= 최신 패치 한눈에 (patch.json) ================= */
+function renderBrief(){
+  const P=PATCH;
+  if(!P||!Array.isArray(P.damage)) return;
+  $('pb-card').classList.remove('hidden');
+  const d=P.date?new Date(P.date+'T00:00:00+09:00'):null;
+  $('pb-eyebrow').textContent=`최신 정기 업데이트 · ${d?`${d.getMonth()+1}/${d.getDate()}(${WD[d.getDay()]})`:''} · 공식 수치`;
+  $('pb-title').textContent=(P.title||'')+' 한눈에';
+  const MAX=Math.ceil(Math.max(10,...P.damage.map(x=>Math.abs(x.pct)||0))*1.2/10)*10; // 라벨 들어갈 여백
+  $('pb-dmg').innerHTML=[...P.damage].sort((a,b)=>a.pct-b.pct).map(x=>{
+    const w=Math.abs(x.pct)/MAX*50,up=x.pct>0,lbl=`${up?'+':''}${x.pct}%`;
+    const pos=up?`left:calc(50% + ${w}% + 4px)`:`right:calc(50% + ${w}% + 4px)`;
+    return `<div class="row"${x.note?` title="${esc(x.note)}"`:''}><span class="dn">${esc(x.name)}${x.pve?'<small>PvE</small>':''}${x.note?'<small>ⓘ</small>':''}</span>
+      <span class="db"><i class="${up?'up':'dn2'}" style="width:${w}%"></i><b style="${pos};color:var(${up?'--jade':'--vermil'})">${x.approx?'≈':''}${lbl}</b></span></div>`;}).join('')
+    +`<span></span><span class="dscale"><span>-${MAX}%</span><span>0</span><span>+${MAX}%</span></span>`;
+  $('pb-other').innerHTML=(P.other||[]).map(t=>`<li>${esc(t)}</li>`).join('');
+  // 깊은 곳
+  const Z=P.zones||[];
+  $('pb-zsec').classList.toggle('hidden',!Z.length);
+  if(Z.length){
+    $('pb-ztitle').textContent=P.zones_title||'사냥터';
+    $('pb-znote').textContent=P.zones_note||'';
+    const pow=store.get('power',0);if(pow)$('pb-pow').value=pow;
+    const draw=()=>{const v=num($('pb-pow'));store.set('power',v);
+      let best=null;Z.forEach(z=>{if(v&&v>=z.power)best=z;});
+      $('pb-zhint').textContent=!v?'':best?`→ 권장 기준을 넘는 가장 높은 곳: ${best.name}`:'→ 아직 모든 깊은 곳이 권장 전투력 미만이에요';
+      $('pb-zones').innerHTML='<tr><th>구역</th><th style="text-align:right">권장 전투력</th><th style="text-align:right">채널 인원</th></tr>'+
+        Z.map(z=>{const c=!v?'':v>=z.power?'ok':v>=z.power*0.9?'near':'';
+          return `<tr class="${c}"><td>${esc(z.name)}</td><td class="n">${fmt(z.power)}</td><td class="n">${z.channel?z.channel+'명':'-'}</td></tr>`;}).join('');};
+    $('pb-pow').oninput=draw;draw();
+  }
+  // 시간 막대
+  const T=P.timeline||[];
+  $('pb-tsec').classList.toggle('hidden',!T.length);
+  if(T.length){
+    const mins=t=>{const [h,m]=t.split(':').map(Number);return h*60+m;};
+        const s0=mins(T[0].start),span=mins(T[T.length-1].end)-s0||1;
+    $('pb-ttitle').textContent=P.timeline_title||'';
+    $('pb-tnote').textContent=P.timeline_note||'';
+    $('pb-tl').innerHTML=T.map(b=>`<div class="${esc(b.kind||'')}" style="flex:${mins(b.end)-mins(b.start)}" title="${esc(b.start)}~${esc(b.end)}">${b.label?`<span>${esc(b.label)}</span>`:''}${b.mult?`<small>${esc(b.mult)}</small>`:''}</div>`).join('');
+    const marks=[...new Set(T.filter(b=>b.kind!=='gap').map(b=>b.start).concat(T[T.length-1].end))];
+    $('pb-tlx').innerHTML=marks.map(t=>`<span style="left:${(mins(t)-s0)/span*100}%">${esc(t)}</span>`).join('');
+  }
+  if(P.source) $('pb-src').innerHTML=`원문: <a href="${esc(P.source[1])}" target="_blank" rel="noopener">${esc(P.source[0])}</a> · 아래 타임라인은 이전 패치까지 전체 요약`;
 }
 
 /* ================= 패치노트 ================= */
@@ -1002,14 +1139,15 @@ function initEquip(){
 
 /* ================= 시작 ================= */
 (async()=>{
-  const [a,m,tl,eq]=await Promise.allSettled([loadJSON('data/auto.json'),loadJSON('data/manual.json'),loadJSON('data/timeline.json'),loadJSON('data/equip.json')]);
+  const [a,m,tl,eq,pt]=await Promise.allSettled([loadJSON('data/auto.json'),loadJSON('data/manual.json'),loadJSON('data/timeline.json'),loadJSON('data/equip.json'),loadJSON('data/patch.json')]);
+  if(pt.status==='fulfilled') PATCH=pt.value;
   if(tl.status==='fulfilled') TIMELINE=tl.value;
   if(eq.status==='fulfilled') EQUIP=eq.value;
   if(a.status==='fulfilled') AUTO=Object.assign(AUTO,a.value);
   if(m.status==='fulfilled') MANUAL=Object.assign(MANUAL,m.value);
   if(a.status==='rejected'&&location.protocol==='file:')
     toast('로컬 파일로 열면 데이터가 안 보여요. README의 로컬 실행 방법을 참고하세요.');
-  initTodo();setStatus();renderTips();setN('전체');setV('전체');setP('전체');initEquip();
+  initTodo();setStatus();renderTips();setN('전체');setV('전체');setP('전체');renderBrief();initEquip();
   renderMats();
   lastDKey=0;tick();setInterval(tick,1000);
   let t=store.get('tab','home');if(!TABS.includes(t))t='home';const b=document.querySelector(`nav button[data-tab="${t}"]`);if(b)b.click();

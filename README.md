@@ -11,6 +11,7 @@ data/auto.json                 ← Actions 가 2시간마다 자동 갱신 (손�
 data/manual.json               ← 사람이 고치는 것: 이번 주 꼭 볼 것, 수동 일정, 숙제 기본값
 data/timeline.json             ← 패치노트 타임라인 (공식 공지 요약, kkaebi-note-update 스킬로 갱신)
 data/equip.json                ← 장비 추가 효과 공식 수치 범위·확률 (확률 공지 변경 시 갱신)
+data/patch.json                ← 최신 정기 업데이트 한눈에 (도술 피해량·깊은 곳·점령전 시간). 정기 업데이트마다 통째로 교체
 data/config.json               수집 설정: 게시판, 유튜브 채널 목록, 키워드
 coupon-helper.js               쿠폰 등록 도우미 (공식 쿠폰 페이지에서 북마클릿으로 실행, 회원번호는 그 브라우저에만 저장)
 assets/                        배너·배경 패턴 SVG (직접 그린 원본)
@@ -53,6 +54,8 @@ tests/                         파서 단위 테스트 + 가짜 응답으로 돌
 ## 평소 운영
 
 - 운영자 메모·수동 일정 수정: `data/manual.json` 편집 → 커밋 (GitHub 웹에서 바로 가능)
+- 매주 반복되는 전투 일정(홈 '이번 주 전투 일정'): `manual.json` 의 `guild_schedule` (wday 0=일…6=토, time KST)
+- 정기 업데이트 후: `data/patch.json` 을 공식 업데이트 공지 수치로 교체. 형식은 `tests/test_data.py` 가 검사
 - 유튜버 추가: `data/config.json` 의 `channels` 에 `{"name": "...", "id": "UC..."}` 추가
   (채널 ID 는 채널 페이지 → 공유 → 채널 ID 복사)
 - 즉시 갱신: Actions → `update-data` → Run workflow

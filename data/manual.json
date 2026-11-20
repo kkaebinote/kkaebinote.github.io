@@ -50,6 +50,42 @@
    "url": "https://forum.kakaogames.com/dokkaebi/postView/?code=update&id=1220255"
   }
  ],
+ "guild_schedule_help": "홈 '이번 주 전투 일정' 카드. wday: 0=일 … 6=토, time: KST HH:MM, dur: 진행 중으로 표시할 분(선택).",
+ "guild_schedule": [
+  {
+   "name": "신기 쟁탈전",
+   "wday": 5,
+   "time": "20:00",
+   "dur": 30,
+   "note": "신청 마감 금 08:00 · 20:00~20:30 사이 시작"
+  },
+  {
+   "name": "미혹의 정원",
+   "wday": 6,
+   "time": "20:00",
+   "dur": 30,
+   "note": "신청 마감 토 08:00 · 20:00~20:30 사이 시작"
+  },
+  {
+   "name": "문파 주간 기여도 마감",
+   "wday": 2,
+   "time": "20:00",
+   "note": "30점 이상이면 보상 · 못 가면 분신 등록"
+  },
+  {
+   "name": "차원 점령전",
+   "wday": 2,
+   "time": "21:30",
+   "dur": 34,
+   "note": "준비 21:10부터 · 점령 10분 × 3번"
+  },
+  {
+   "name": "요신 토벌령·결계지 시즌 갱신",
+   "wday": 3,
+   "time": "05:00",
+   "note": "수시 오픈 · 직접 10점 / 분신 5점"
+  }
+ ],
  "todo_defaults": {
   "daily": [
    "금전 상점 소분 구매 (비법서·정수·요령서)",

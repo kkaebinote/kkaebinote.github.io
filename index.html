@@ -358,6 +358,21 @@ details.pentry[open] .pcnt svg{transform:rotate(180deg)}
 .tlx{position:relative;height:16px;font-size:11px;color:var(--ink3);font-family:var(--f-mono);margin-top:3px}
 .tlx span{position:absolute;transform:translateX(-50%);white-space:nowrap}
 .tlx span:first-child{transform:none}.tlx span:last-child{transform:translateX(-100%)}
+.drank{display:grid;grid-template-columns:max-content 1fr max-content;gap:3px 10px;align-items:center;font-size:13px;margin-bottom:12px}
+.drank .t{height:10px;background:var(--sunk);border-radius:5px;overflow:hidden}
+.drank .t i{display:block;height:100%;background:var(--sky);border-radius:5px}
+.drank .t.top i{background:var(--jade)}
+.drank span.top{font-weight:700}
+.drank .v{font-family:var(--f-mono);font-size:12px;text-align:right}
+.dcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}
+.dcard{border:1px solid var(--line);border-radius:var(--r);padding:10px 12px;background:var(--surface)}
+.dcard h4{margin:0 0 2px;display:flex;justify-content:space-between;gap:8px}
+.dcard h4 b{font-family:var(--f-mono)}
+.dcard .dd2{font-size:12px;color:var(--ink3);margin-bottom:6px}
+.dseq{display:flex;flex-wrap:wrap;gap:4px;font-size:12px}
+.dseq span{background:var(--sunk);border-radius:6px;padding:2px 6px}
+.dseq span.u{background:var(--gold-soft);color:var(--gold);font-weight:700}
+.zt tr.hard td:first-child{color:var(--vermil);font-weight:700}
 </style>
 </head>
 <body>
@@ -468,6 +483,25 @@ el.querySelector('.enter').focus();})();
       <div class="tl" id="pb-tl"></div>
       <div class="tlx" id="pb-tlx"></div>
       <p class="muted" id="pb-tnote" style="margin:8px 0 0;font-size:12.5px"></p>
+    </div>
+    <div class="pb-sec hidden" id="pb-bsec">
+      <h3 id="pb-btitle"></h3>
+      <div style="overflow-x:auto"><table class="zt" id="pb-bt"></table></div>
+      <p class="muted" id="pb-bnote" style="margin:8px 0 0;font-size:12.5px"></p>
+    </div>
+    <div class="pb-sec hidden" id="pb-msec">
+      <h3 id="pb-mtitle"></h3>
+      <div style="overflow-x:auto"><table class="zt" id="pb-mt"></table></div>
+      <p class="muted" id="pb-mnote" style="margin:8px 0 0;font-size:12.5px"></p>
+    </div>
+    <div class="pb-sec hidden" id="pb-dsec">
+      <h3 id="pb-dtitle"></h3>
+      <div class="chips" id="pb-dtabs" style="margin:0 0 10px"></div>
+      <p class="muted" id="pb-dunit" style="margin:0 0 6px;font-size:12.5px"></p>
+      <div class="drank" id="pb-drank"></div>
+      <div class="dcards" id="pb-dcards"></div>
+      <ul class="pb-list" id="pb-dnotes"></ul>
+      <p class="muted" id="pb-dcredit" style="margin:8px 0 0;font-size:12.5px"></p>
     </div>
     <p class="muted" id="pb-src" style="margin:14px 0 0;font-size:12.5px"></p>
   </div>
@@ -1005,6 +1039,44 @@ function renderBrief(){
     $('pb-tl').innerHTML=T.map(b=>`<div class="${esc(b.kind||'')}" style="flex:${mins(b.end)-mins(b.start)}" title="${esc(b.start)}~${esc(b.end)}">${b.label?`<span>${esc(b.label)}</span>`:''}${b.mult?`<small>${esc(b.mult)}</small>`:''}</div>`).join('');
     const marks=[...new Set(T.filter(b=>b.kind!=='gap').map(b=>b.start).concat(T[T.length-1].end))];
     $('pb-tlx').innerHTML=marks.map(t=>`<span style="left:${(mins(t)-s0)/span*100}%">${esc(t)}</span>`).join('');
+  }
+  // 돌파 천장
+  const B=P.breakthrough;
+  $('pb-bsec').classList.toggle('hidden',!B?.stages?.length);
+  if(B?.stages?.length){
+    $('pb-btitle').textContent=B.title||'돌파 천장';
+    // 천장 N: 실패 N번 뒤 다음 시도는 확정 → 최대 N+1회, 기대 시도 = Σ_{k≤N} k·p·q^(k-1) + (N+1)·q^N
+    const exp=(p,N)=>{const q=1-p;let e=0;for(let k=1;k<=N;k++)e+=k*p*q**(k-1);return e+(N+1)*q**N;};
+    $('pb-bt').innerHTML='<tr><th>단계</th><th style="text-align:right">성공 확률</th><th style="text-align:right">천장</th><th style="text-align:right">최대 시도</th><th style="text-align:right">평균 시도</th><th style="text-align:right">천장 없을 때</th></tr>'+
+      B.stages.map(x=>{const p=x.p/100,N=x.ceil;return `<tr class="${x.p<=10?'hard':''}"><td>${esc(x.step)}</td><td class="n">${x.p}%</td><td class="n">${N!=null?'실패 '+N+'회':'-'}</td><td class="n">${N!=null?(N+1)+'회':'-'}</td><td class="n">${N!=null?exp(p,N).toFixed(1)+'회':'-'}</td><td class="n">${(1/p).toFixed(1)}회</td></tr>`;}).join('');
+    $('pb-bnote').innerHTML=esc(B.note||'')+(B.prob_source?` · 확률 원문: <a href="${esc(B.prob_source[1])}" target="_blank" rel="noopener">${esc(B.prob_source[0])}</a>`:'');
+  }
+  // 요령서 구매
+  const M=P.manual_shop;
+  $('pb-msec').classList.toggle('hidden',!M?.rows?.length);
+  if(M?.rows?.length){
+    $('pb-mtitle').textContent=M.title||'';
+    const wk=r=>r.per==='일일'?r.n*7:r.n,tot=M.rows.reduce((a,r)=>a+wk(r),0);
+    $('pb-mt').innerHTML='<tr><th>상점</th><th style="text-align:right">구매 가능</th><th style="text-align:right">주간 환산</th></tr>'+
+      M.rows.map(r=>`<tr><td>${esc(r.shop)}</td><td class="n">${esc(r.per)} ${fmt(r.n)}회</td><td class="n">${fmt(wk(r))}회</td></tr>`).join('')+
+      `<tr class="ok"><td><b>합계</b></td><td></td><td class="n"><b>${fmt(tot)}회</b></td></tr>`;
+    $('pb-mnote').textContent=M.note||'';
+  }
+  // 추천 덱 스냅샷
+  const D=P.decks,modes=D?['boss','hunt'].filter(k=>D[k]?.rank?.length):[];
+  $('pb-dsec').classList.toggle('hidden',!modes.length);
+  if(modes.length){
+    $('pb-dtitle').textContent=D.title||'추천 덱';
+    $('pb-dcredit').innerHTML=esc(D.credit||'')+(D.links?.length?' · '+D.links.map(([n,u])=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)} ↗</a>`).join(' · '):'');
+    const show=k=>{const X=D[k],mx=Math.max(...X.rank.map(r=>r[1]));
+      $('pb-dunit').textContent=X.unit||'';
+      $('pb-drank').innerHTML=X.rank.map(([n,v],i)=>`<span class="${i<(X.top?.length||0)?'top':''}">${esc(n)}</span><span class="t ${i<(X.top?.length||0)?'top':''}"><i style="width:${v/mx*100}%"></i></span><span class="v">${fmt(v)}${esc(X.fmt||'')}</span>`).join('');
+      $('pb-dcards').innerHTML=(X.top||[]).map(t=>`<div class="dcard"><h4><span>${esc(t.style)} · ${esc(t.ult)}</span><b>${fmt(t.val)}${esc(X.fmt||'')}</b></h4>
+        ${t.detail?`<div class="dd2">${esc(t.detail)}</div>`:''}<div class="dseq">${t.order.map((o,i)=>`<span class="${o===t.ult?'u':''}">${i+1}. ${o===t.ult?'★ ':''}${esc(o)}</span>`).join('')}</div></div>`).join('');
+      $('pb-dnotes').innerHTML=(X.notes||[]).map(n=>`<li>${esc(n)}</li>`).join('');
+      store.set('dmode',k);
+      chips($('pb-dtabs'),modes.map(m=>D[m].label||m),D[k].label||k,lbl=>show(modes.find(m=>(D[m].label||m)===lbl)));};
+    const saved=store.get('dmode','boss');show(modes.includes(saved)?saved:modes[0]);
   }
   if(P.source) $('pb-src').innerHTML=`원문: <a href="${esc(P.source[1])}" target="_blank" rel="noopener">${esc(P.source[0])}</a> · 아래 타임라인은 이전 패치까지 전체 요약`;
 }

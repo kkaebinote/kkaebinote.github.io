@@ -53,6 +53,33 @@ class PatchBrief(unittest.TestCase):
             self.assertRegex(b["start"], HHMM)
             self.assertLess(mins(b["start"]), mins(b["end"]))
 
+    def test_breakthrough(self):
+        b = self.p.get("breakthrough")
+        if not b:
+            return
+        for x in b["stages"]:
+            with self.subTest(step=x["step"]):
+                self.assertTrue(0 < x["p"] <= 100)
+                if x.get("ceil") is not None:
+                    self.assertGreaterEqual(x["ceil"], 0)
+
+    def test_manual_shop(self):
+        for r in self.p.get("manual_shop", {}).get("rows", []):
+            self.assertIn(r["per"], ("일일", "주간"))
+            self.assertGreater(r["n"], 0)
+
+    def test_decks(self):
+        d = self.p.get("decks")
+        if not d:
+            return
+        self.assertTrue(d.get("credit"), "외부 계산 결과는 출처 필수")
+        for k in ("boss", "hunt"):
+            if k not in d:
+                continue
+            for t in d[k].get("top", []):
+                with self.subTest(mode=k, style=t["style"]):
+                    self.assertIn(t["ult"], t["order"])
+
 
 if __name__ == "__main__":
     unittest.main()

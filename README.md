@@ -11,7 +11,7 @@ data/auto.json                 ← Actions 가 2시간마다 자동 갱신 (손�
 data/manual.json               ← 사람이 고치는 것: 이번 주 꼭 볼 것, 수동 일정, 숙제 기본값
 data/timeline.json             ← 패치노트 타임라인 (공식 공지 요약, kkaebi-note-update 스킬로 갱신)
 data/equip.json                ← 장비 추가 효과 공식 수치 범위·확률 (확률 공지 변경 시 갱신)
-data/patch.json                ← 최신 정기 업데이트 한눈에 (도술 피해량·깊은 곳·점령전 시간). 정기 업데이트마다 통째로 교체
+data/patch.json                ← 최신 정기 업데이트 한눈에 (도술 피해량·깊은 곳·점령전 시간·돌파 천장·요령서 구매 횟수·계열별 덱 스냅샷). 정기 업데이트마다 교체
 data/config.json               수집 설정: 게시판, 유튜브 채널 목록, 키워드
 coupon-helper.js               쿠폰 등록 도우미 (공식 쿠폰 페이지에서 북마클릿으로 실행, 회원번호는 그 브라우저에만 저장)
 assets/                        배너·배경 패턴 SVG (직접 그린 원본)

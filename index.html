@@ -548,7 +548,7 @@ el.querySelector('.enter').focus();})();
   <div class="card hidden" id="pb-card">
     <p class="eyebrow" id="pb-eyebrow">최신 정기 업데이트 · 공식 수치</p>
     <h2 id="pb-title">한눈에 보기</h2>
-    <div class="pb-sec">
+    <div class="pb-sec" id="pb-dmgsec">
       <h3>도술 피해량 변화</h3>
       <p class="muted" style="margin:-4px 0 10px;font-size:12.5px">≈ 는 공지에 '약'으로 표기된 값, PvE 는 PvP 피해량 그대로. 도술에 마우스를 올리면 추가 변경 사항이 보여요.</p>
       <div class="dmg" id="pb-dmg"></div>
@@ -1170,6 +1170,7 @@ function renderBrief(){
       <span class="db"><i class="${up?'up':'dn2'}" style="width:${w}%"></i><b style="${pos};color:var(${up?'--jade':'--vermil'})">${x.approx?'≈':''}${lbl}</b></span></div>`;}).join('')
     +`<span></span><span class="dscale"><span>-${MAX}%</span><span>0</span><span>+${MAX}%</span></span>`;
   $('pb-other').innerHTML=(P.other||[]).map(t=>`<li>${esc(t)}</li>`).join('');
+  $('pb-dmgsec').classList.toggle('hidden',!P.damage.length&&!(P.other||[]).length);
   // 깊은 곳
   const Z=P.zones||[];
   $('pb-zsec').classList.toggle('hidden',!Z.length);
@@ -1179,10 +1180,11 @@ function renderBrief(){
     const pow=store.get('power',0);if(pow)$('pb-pow').value=pow;
     const draw=()=>{const v=num($('pb-pow'));store.set('power',v);
       let best=null;Z.forEach(z=>{if(v&&v>=z.power)best=z;});
-      $('pb-zhint').textContent=!v?'':best?`→ 권장 기준을 넘는 가장 높은 곳: ${best.name}`:'→ 아직 모든 깊은 곳이 권장 전투력 미만이에요';
-      $('pb-zones').innerHTML='<tr><th>구역</th><th style="text-align:right">권장 전투력</th><th style="text-align:right">채널 인원</th></tr>'+
+      $('pb-zhint').textContent=!v?'':best?`→ 기준을 넘는 가장 높은 곳: ${best.name}`:'→ 아직 모든 구역이 기준 전투력 미만이에요';
+      const ch=Z.some(z=>z.channel);
+      $('pb-zones').innerHTML=`<tr><th>구역</th><th style="text-align:right">기준 전투력</th>${ch?'<th style="text-align:right">채널 인원</th>':''}</tr>`+
         Z.map(z=>{const c=!v?'':v>=z.power?'ok':v>=z.power*0.9?'near':'';
-          return `<tr class="${c}"><td>${esc(z.name)}</td><td class="n">${fmt(z.power)}</td><td class="n">${z.channel?z.channel+'명':'-'}</td></tr>`;}).join('');};
+          return `<tr class="${c}"><td>${esc(z.name)}</td><td class="n">${fmt(z.power)}</td>${ch?`<td class="n">${z.channel?z.channel+'명':'-'}</td>`:''}</tr>`;}).join('');};
     $('pb-pow').oninput=draw;draw();
   }
   // 시간 막대
@@ -1194,7 +1196,7 @@ function renderBrief(){
     $('pb-ttitle').textContent=P.timeline_title||'';
     $('pb-tnote').textContent=P.timeline_note||'';
     $('pb-tl').innerHTML=T.map(b=>`<div class="${esc(b.kind||'')}" style="flex:${mins(b.end)-mins(b.start)}" title="${esc(b.start)}~${esc(b.end)}">${b.label?`<span>${esc(b.label)}</span>`:''}${b.mult?`<small>${esc(b.mult)}</small>`:''}</div>`).join('');
-    const marks=[...new Set(T.filter(b=>b.kind!=='gap').map(b=>b.start).concat(T[T.length-1].end))];
+    const marks=[...new Set([T[0].start,...T.filter(b=>b.kind!=='gap').map(b=>b.start),T[T.length-1].end])];
     $('pb-tlx').innerHTML=marks.map(t=>`<span style="left:${(mins(t)-s0)/span*100}%">${esc(t)}</span>`).join('');
   }
   // 돌파 천장
